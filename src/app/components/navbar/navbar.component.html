@@ -2,17 +2,11 @@
   class="w-full px-11 py-4 flex flex-row justify-between"
   [ngClass]="setBackGroundColor()"
 >
-  <a
-    href="/"
-    class="font-semibold"
-    [ngClass]="setFontColor()"
-  >
+  <a href="/" class="font-semibold" [ngClass]="setFontColor()">
     Where in the world?
   </a>
-  <button
-    (click)="toggleThemeMode()"
-    [ngClass]="setFontColor()"
-  >
-    {{ themeMode === 'dark' ? 'Light mode' : 'Dark mode' }}
+  <button (click)="toggleThemeMode()" [ngClass]="setFontColor()">
+    <i class="fas" [ngClass]="themeMode === 'dark' ? 'fa-sun' : 'fa-moon'"></i>
+    {{ themeMode === "dark" ? "Light mode" : "Dark mode" }}
   </button>
 </nav>
