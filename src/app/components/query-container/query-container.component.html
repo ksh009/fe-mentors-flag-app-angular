@@ -2,10 +2,14 @@
   class="w-full h-screen flex flex-col justify-center items-center"
   [ngClass]="themeMode === 'dark' ? 'bg-veryDarkBlueDM' : 'bg-white'"
 >
-  <div class="w-full flex justify-between items-center px-11 py-4">
+  <!-- Query container -->
+  <div class="w-full h-1/5 flex justify-between items-center px-11 py-4">
     <!-- Search Bar -->
     <div class="flex items-center border-b border-gray-300">
-      <i class="fas fa-search px-2" [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"></i>
+      <i
+        class="fas fa-search px-2"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      ></i>
       <input
         type="text"
         placeholder="Search for a country..."
@@ -13,39 +17,36 @@
         [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
       />
     </div>
-    
+
     <!-- Filter Bar -->
-    <div class="relative">
-        <select
-          class="border border-gray-300 py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500"
-          [ngClass]="{
-            'text-white': themeMode === 'dark',
-            'text-veryDarkBlueLM': themeMode !== 'dark',
-            'bg-darkBlueDM': themeMode === 'dark',
-            'bg-white': themeMode !== 'dark'
-          }"
+    <div [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'">
+      <select
+        class="border border-gray-300 py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500 bg-transparent"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <option
+          [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+          value=""
+          disabled
+          selected
         >
-          <option value="" disabled selected>Filter by region</option>
-          <option
-            *ngFor="let region of regions"
-            [ngClass]="{
-              'text-white': themeMode === 'dark',
-              'text-veryDarkBlueLM': themeMode !== 'dark',
-              'bg-darkBlueDM': themeMode === 'dark',
-              'bg-white': themeMode !== 'dark'
-            }"
-            [value]="region"
-          >
-            {{ region }}
-          </option>
-        </select>
-      </div>
-      
+          Filter by region
+        </option>
+        <option
+          [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+          *ngFor="let region of regions"
+          [value]="region"
+        >
+          {{ region }}
+        </option>
+      </select>
+    </div>
   </div>
 
-  <h1 [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'">
-    {{ title }}
-  </h1>
+  <!-- Content -->
+  <div class="h-4/5">
+    <h1 [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'">
+      {{ title }}
+    </h1>
+  </div>
 </div>
-
-
