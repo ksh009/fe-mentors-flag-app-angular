@@ -20,6 +20,11 @@ module.exports = {
         bodyHomepage: '14px',
         bodyDetailPage: '16px',
       },
+      fontWeight: {
+        light: 300,
+        semiBold: 600,
+        bold: 800,
+      },
     },
   },
   plugins: [],
