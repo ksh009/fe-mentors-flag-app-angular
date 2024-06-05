@@ -5,7 +5,7 @@
   <!-- Query container -->
   <div class="w-full h-1/5 flex justify-between items-center px-11 py-4">
     <!-- Search Bar -->
-    <div [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'" class="py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500 h-9 text-xs flex justify-start items-center w-1/3 shadow-xl">
+    <div [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'" class="py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500 h-9 text-xs flex justify-start items-center w-1/3 shadow-lg">
       <i
         class="fas fa-search px-2"
         [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
@@ -19,12 +19,15 @@
     </div>
 
     <!-- Filter Bar -->
-    <div class="rounded shadow-xl w-32" [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'">
+    <div class="rounded shadow-lg w-32" [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'">
       <select
-        class="py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500 bg-transparent h-9 text-xs"
+        class="py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500 bg-transparent h-9 text-xs w-full"
         [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+        placeholder="Filter by region"
       >
         <option
+        class="border-none"
+
           [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
           value=""
           disabled
@@ -33,6 +36,7 @@
           Filter by region
         </option>
         <option
+        class="border-none"
           [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
           *ngFor="let region of regions"
           [value]="region"
