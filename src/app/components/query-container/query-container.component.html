@@ -4,46 +4,10 @@
 >
   <!-- Query container -->
   <div class="w-full h-1/5 flex justify-between items-center px-10 py-4 mt-5">
-   <app-search-bar></app-search-bar>
-   <app-filter-bar></app-filter-bar>
+    <app-search-bar></app-search-bar>
+    <app-filter-bar></app-filter-bar>
   </div>
 
   <!-- Content -->
-  <div class="grid grid-cols-4 gap-12 p-4 w-full h-full px-10">
-    <!-- Dummy Card 1 -->
-    <div
-      *ngFor="let country of countries"
-      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-2xl"
-    >
-      <div class="flex items-center justify-center h-48 max-h-36">
-        <!-- Image -->
-        <img
-          [src]="country.flags.png"
-          alt="Country Image"
-          class="h-full w-full object-cover rounded-t"
-        />
-      </div>
-      <div
-        class="h-4/6 px-4 py-3"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">
-          {{ country.name.common }}
-        </div>
-        <ul class="text-xs mt-2 font-light">
-          <li>
-            Population:
-            <span class="opacity-50">{{ country.population | number }}</span>
-          </li>
-          <li>
-            Region: <span class="opacity-50">{{ country.region }}</span>
-          </li>
-          <li>
-            Capital: <span class="opacity-50">{{ country.capital }}</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <app-flag-card></app-flag-card>
 </div>

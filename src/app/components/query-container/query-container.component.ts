@@ -10,15 +10,12 @@ import data from '../../../assets/data.json';
 export class QueryContainerComponent implements OnInit {
   constructor(private themeDataService: ThemeDataService) {}
   themeMode: string = "dark";
-  countries: any[] = [];
 
   ngOnInit() {
     this.themeDataService.themeMode$.subscribe((mode) => {
       console.log("mode", mode);
       this.themeMode = mode;
     });
-    // Will be populated via a service later 
-    this.countries = data;
   }
 }
 
