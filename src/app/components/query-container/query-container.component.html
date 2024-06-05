@@ -56,13 +56,14 @@
   <div class="grid grid-cols-4 gap-12 p-4 w-full h-full px-10">
     <!-- Dummy Card 1 -->
     <div
+      *ngFor="let country of countries"
       [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-lg"
+      class="h-72 rounded flex flex-col justify-between shadow-2xl"
     >
       <div class="flex items-center justify-center h-48">
         <!-- Image -->
         <img
-          src="https://flagcdn.com/w320/af.png"
+          [src]="country.flags.png"
           alt="Country Image"
           class="h-full w-full object-cover rounded-t"
         />
@@ -71,181 +72,19 @@
         class="h-4/6 px-4 py-3"
         [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
       >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">
+          {{ country.name }}
+        </div>
         <ul class="text-xs mt-2 font-light">
-          <li>Population: <span class="opacity-50">56454646</span></li>
-          <li>Region: <span class="opacity-50">Asia</span></li>
-          <li>Capital: <span class="opacity-50">Tokyo</span></li>
-        </ul>
-      </div>
-    </div>
-
-    <div
-      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-lg"
-    >
-      <div class="flex items-center justify-center h-48">
-        <!-- Image -->
-        <img
-          src="https://flagcdn.com/w320/af.png"
-          alt="Country Image"
-          class="h-full w-full object-cover rounded-t"
-        />
-      </div>
-      <div
-        class="h-4/6 px-4 py-3"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
-        <ul class="text-xs mt-2 font-light">
-          <li>Population: <span class="opacity-50">56454646</span></li>
-          <li>Region: <span class="opacity-50">Asia</span></li>
-          <li>Capital: <span class="opacity-50">Tokyo</span></li>
-        </ul>
-      </div>
-    </div>
-
-    <div
-      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-lg"
-    >
-      <div class="flex items-center justify-center h-48">
-        <!-- Image -->
-        <img
-          src="https://flagcdn.com/w320/af.png"
-          alt="Country Image"
-          class="h-full w-full object-cover rounded-t"
-        />
-      </div>
-      <div
-        class="h-4/6 px-4 py-3"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
-        <ul class="text-xs mt-2 font-light">
-          <li>Population: <span class="opacity-50">56454646</span></li>
-          <li>Region: <span class="opacity-50">Asia</span></li>
-          <li>Capital: <span class="opacity-50">Tokyo</span></li>
-        </ul>
-      </div>
-    </div>
-    <div
-      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-lg"
-    >
-      <div class="flex items-center justify-center h-48">
-        <!-- Image -->
-        <img
-          src="https://flagcdn.com/w320/af.png"
-          alt="Country Image"
-          class="h-full w-full object-cover rounded-t"
-        />
-      </div>
-      <div
-        class="h-4/6 px-4 py-3"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
-        <ul class="text-xs mt-2 font-light">
-          <li>Population: <span class="opacity-50">56454646</span></li>
-          <li>Region: <span class="opacity-50">Asia</span></li>
-          <li>Capital: <span class="opacity-50">Tokyo</span></li>
-        </ul>
-      </div>
-    </div>
-    <div
-      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-lg"
-    >
-      <div class="flex items-center justify-center h-48">
-        <!-- Image -->
-        <img
-          src="https://flagcdn.com/w320/af.png"
-          alt="Country Image"
-          class="h-full w-full object-cover rounded-t"
-        />
-      </div>
-      <div
-        class="h-4/6 px-4 py-3"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
-        <ul class="text-xs mt-2 font-light">
-          <li>Population: <span class="opacity-50">56454646</span></li>
-          <li>Region: <span class="opacity-50">Asia</span></li>
-          <li>Capital: <span class="opacity-50">Tokyo</span></li>
-        </ul>
-      </div>
-    </div>
-    <div
-      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-lg"
-    >
-      <div class="flex items-center justify-center h-48">
-        <!-- Image -->
-        <img
-          src="https://flagcdn.com/w320/af.png"
-          alt="Country Image"
-          class="h-full w-full object-cover rounded-t"
-        />
-      </div>
-      <div
-        class="h-4/6 px-4 py-3"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
-        <ul class="text-xs mt-2 font-light">
-          <li>Population: <span class="opacity-50">56454646</span></li>
-          <li>Region: <span class="opacity-50">Asia</span></li>
-          <li>Capital: <span class="opacity-50">Tokyo</span></li>
-        </ul>
-      </div>
-    </div>
-    <div
-      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-lg"
-    >
-      <div class="flex items-center justify-center h-48">
-        <!-- Image -->
-        <img
-          src="https://flagcdn.com/w320/af.png"
-          alt="Country Image"
-          class="h-full w-full object-cover rounded-t"
-        />
-      </div>
-      <div
-        class="h-4/6 px-4 py-3"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
-        <ul class="text-xs mt-2 font-light">
-          <li>Population: <span class="opacity-50">56454646</span></li>
-          <li>Region: <span class="opacity-50">Asia</span></li>
-          <li>Capital: <span class="opacity-50">Tokyo</span></li>
-        </ul>
-      </div>
-    </div>
-    <div
-      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-      class="h-72 rounded flex flex-col justify-between shadow-lg"
-    >
-      <div class="flex items-center justify-center h-48">
-        <!-- Image -->
-        <img
-          src="https://flagcdn.com/w320/af.png"
-          alt="Country Image"
-          class="h-full w-full object-cover rounded-t"
-        />
-      </div>
-      <div
-        class="h-4/6 px-4 py-3"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
-        <ul class="text-xs mt-2 font-light">
-          <li>Population: <span class="opacity-50">56454646</span></li>
-          <li>Region: <span class="opacity-50">Asia</span></li>
-          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+          <li>
+            Population: <span class="opacity-50">{{ country.population }}</span>
+          </li>
+          <li>
+            Region: <span class="opacity-50">{{ country.region }}</span>
+          </li>
+          <li>
+            Capital: <span class="opacity-50">{{ country.capital }}</span>
+          </li>
         </ul>
       </div>
     </div>
