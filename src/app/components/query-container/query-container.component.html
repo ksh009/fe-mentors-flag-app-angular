@@ -55,189 +55,199 @@
   <!-- Content -->
   <div class="grid grid-cols-4 gap-12 p-4 w-full h-full px-10">
     <!-- Dummy Card 1 -->
-    <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-      <div class="flex items-center justify-center h-32">Image</div>
-      <div class="text-lg font-semibold mt-4">Card Title</div>
-      <div class="text-sm text-gray-600 mt-2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+    <div
+      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+      class="h-72 rounded flex flex-col justify-between shadow-lg"
+    >
+      <div class="flex items-center justify-center h-48">
+        <!-- Image -->
+        <img
+          src="https://flagcdn.com/w320/af.png"
+          alt="Country Image"
+          class="h-full w-full object-cover rounded-t"
+        />
       </div>
-      <div class="flex justify-between items-center mt-4">
-        <div class="text-sm text-gray-400">Category</div>
-        <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-          Read More
-        </button>
-      </div>
-    </div>
-    <!-- Dummy Card 2 -->
-    <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-      <div class="flex items-center justify-center h-32">Image</div>
-      <div class="text-lg font-semibold mt-4">Card Title</div>
-      <div class="text-sm text-gray-600 mt-2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-      <div class="flex justify-between items-center mt-4">
-        <div class="text-sm text-gray-400">Category</div>
-        <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-          Read More
-        </button>
-      </div>
-    </div>
-    <!-- Dummy Card 3 -->
-    <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-      <div class="flex items-center justify-center h-32">Image</div>
-      <div class="text-lg font-semibold mt-4">Card Title</div>
-      <div class="text-sm text-gray-600 mt-2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-      <div class="flex justify-between items-center mt-4">
-        <div class="text-sm text-gray-400">Category</div>
-        <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-          Read More
-        </button>
-      </div>
-    </div>
-    <!-- Dummy Card 4 -->
-    <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-      <div class="flex items-center justify-center h-32">Image</div>
-      <div class="text-lg font-semibold mt-4">Card Title</div>
-      <div class="text-sm text-gray-600 mt-2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-      <div class="flex justify-between items-center mt-4">
-        <div class="text-sm text-gray-400">Category</div>
-        <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-          Read More
-        </button>
+      <div
+        class="h-4/6 px-4 py-3"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <ul class="text-xs mt-2 font-light">
+          <li>Population: <span class="opacity-50">56454646</span></li>
+          <li>Region: <span class="opacity-50">Asia</span></li>
+          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+        </ul>
       </div>
     </div>
 
+    <div
+      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+      class="h-72 rounded flex flex-col justify-between shadow-lg"
+    >
+      <div class="flex items-center justify-center h-48">
+        <!-- Image -->
+        <img
+          src="https://flagcdn.com/w320/af.png"
+          alt="Country Image"
+          class="h-full w-full object-cover rounded-t"
+        />
+      </div>
+      <div
+        class="h-4/6 px-4 py-3"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <ul class="text-xs mt-2 font-light">
+          <li>Population: <span class="opacity-50">56454646</span></li>
+          <li>Region: <span class="opacity-50">Asia</span></li>
+          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+        </ul>
+      </div>
+    </div>
 
-    <!-- Dummy Card 1 -->
-    <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-        <div class="flex items-center justify-center h-32">Image</div>
-        <div class="text-lg font-semibold mt-4">Card Title</div>
-        <div class="text-sm text-gray-600 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </div>
-        <div class="flex justify-between items-center mt-4">
-          <div class="text-sm text-gray-400">Category</div>
-          <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-            Read More
-          </button>
-        </div>
+    <div
+      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+      class="h-72 rounded flex flex-col justify-between shadow-lg"
+    >
+      <div class="flex items-center justify-center h-48">
+        <!-- Image -->
+        <img
+          src="https://flagcdn.com/w320/af.png"
+          alt="Country Image"
+          class="h-full w-full object-cover rounded-t"
+        />
       </div>
-      <!-- Dummy Card 2 -->
-      <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-        <div class="flex items-center justify-center h-32">Image</div>
-        <div class="text-lg font-semibold mt-4">Card Title</div>
-        <div class="text-sm text-gray-600 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </div>
-        <div class="flex justify-between items-center mt-4">
-          <div class="text-sm text-gray-400">Category</div>
-          <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-            Read More
-          </button>
-        </div>
+      <div
+        class="h-4/6 px-4 py-3"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <ul class="text-xs mt-2 font-light">
+          <li>Population: <span class="opacity-50">56454646</span></li>
+          <li>Region: <span class="opacity-50">Asia</span></li>
+          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+        </ul>
       </div>
-      <!-- Dummy Card 3 -->
-      <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-        <div class="flex items-center justify-center h-32">Image</div>
-        <div class="text-lg font-semibold mt-4">Card Title</div>
-        <div class="text-sm text-gray-600 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </div>
-        <div class="flex justify-between items-center mt-4">
-          <div class="text-sm text-gray-400">Category</div>
-          <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-            Read More
-          </button>
-        </div>
+    </div>
+    <div
+      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+      class="h-72 rounded flex flex-col justify-between shadow-lg"
+    >
+      <div class="flex items-center justify-center h-48">
+        <!-- Image -->
+        <img
+          src="https://flagcdn.com/w320/af.png"
+          alt="Country Image"
+          class="h-full w-full object-cover rounded-t"
+        />
       </div>
-      <!-- Dummy Card 4 -->
-      <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-        <div class="flex items-center justify-center h-32">Image</div>
-        <div class="text-lg font-semibold mt-4">Card Title</div>
-        <div class="text-sm text-gray-600 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </div>
-        <div class="flex justify-between items-center mt-4">
-          <div class="text-sm text-gray-400">Category</div>
-          <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-            Read More
-          </button>
-        </div>
+      <div
+        class="h-4/6 px-4 py-3"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <ul class="text-xs mt-2 font-light">
+          <li>Population: <span class="opacity-50">56454646</span></li>
+          <li>Region: <span class="opacity-50">Asia</span></li>
+          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+        </ul>
       </div>
-
-
-      <!-- Dummy Card 1 -->
-    <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-        <div class="flex items-center justify-center h-32">Image</div>
-        <div class="text-lg font-semibold mt-4">Card Title</div>
-        <div class="text-sm text-gray-600 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </div>
-        <div class="flex justify-between items-center mt-4">
-          <div class="text-sm text-gray-400">Category</div>
-          <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-            Read More
-          </button>
-        </div>
+    </div>
+    <div
+      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+      class="h-72 rounded flex flex-col justify-between shadow-lg"
+    >
+      <div class="flex items-center justify-center h-48">
+        <!-- Image -->
+        <img
+          src="https://flagcdn.com/w320/af.png"
+          alt="Country Image"
+          class="h-full w-full object-cover rounded-t"
+        />
       </div>
-      <!-- Dummy Card 2 -->
-      <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-        <div class="flex items-center justify-center h-32">Image</div>
-        <div class="text-lg font-semibold mt-4">Card Title</div>
-        <div class="text-sm text-gray-600 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </div>
-        <div class="flex justify-between items-center mt-4">
-          <div class="text-sm text-gray-400">Category</div>
-          <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-            Read More
-          </button>
-        </div>
+      <div
+        class="h-4/6 px-4 py-3"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <ul class="text-xs mt-2 font-light">
+          <li>Population: <span class="opacity-50">56454646</span></li>
+          <li>Region: <span class="opacity-50">Asia</span></li>
+          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+        </ul>
       </div>
-      <!-- Dummy Card 3 -->
-      <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-        <div class="flex items-center justify-center h-32">Image</div>
-        <div class="text-lg font-semibold mt-4">Card Title</div>
-        <div class="text-sm text-gray-600 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </div>
-        <div class="flex justify-between items-center mt-4">
-          <div class="text-sm text-gray-400">Category</div>
-          <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-            Read More
-          </button>
-        </div>
+    </div>
+    <div
+      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+      class="h-72 rounded flex flex-col justify-between shadow-lg"
+    >
+      <div class="flex items-center justify-center h-48">
+        <!-- Image -->
+        <img
+          src="https://flagcdn.com/w320/af.png"
+          alt="Country Image"
+          class="h-full w-full object-cover rounded-t"
+        />
       </div>
-      <!-- Dummy Card 4 -->
-      <div class="h-80 bg-gray-200 rounded-lg p-4 flex flex-col justify-between">
-        <div class="flex items-center justify-center h-32">Image</div>
-        <div class="text-lg font-semibold mt-4">Card Title</div>
-        <div class="text-sm text-gray-600 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </div>
-        <div class="flex justify-between items-center mt-4">
-          <div class="text-sm text-gray-400">Category</div>
-          <button class="bg-blue-500 text-white px-3 py-1 rounded-md">
-            Read More
-          </button>
-        </div>
+      <div
+        class="h-4/6 px-4 py-3"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <ul class="text-xs mt-2 font-light">
+          <li>Population: <span class="opacity-50">56454646</span></li>
+          <li>Region: <span class="opacity-50">Asia</span></li>
+          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+        </ul>
       </div>
-    
+    </div>
+    <div
+      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+      class="h-72 rounded flex flex-col justify-between shadow-lg"
+    >
+      <div class="flex items-center justify-center h-48">
+        <!-- Image -->
+        <img
+          src="https://flagcdn.com/w320/af.png"
+          alt="Country Image"
+          class="h-full w-full object-cover rounded-t"
+        />
+      </div>
+      <div
+        class="h-4/6 px-4 py-3"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <ul class="text-xs mt-2 font-light">
+          <li>Population: <span class="opacity-50">56454646</span></li>
+          <li>Region: <span class="opacity-50">Asia</span></li>
+          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+        </ul>
+      </div>
+    </div>
+    <div
+      [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+      class="h-72 rounded flex flex-col justify-between shadow-lg"
+    >
+      <div class="flex items-center justify-center h-48">
+        <!-- Image -->
+        <img
+          src="https://flagcdn.com/w320/af.png"
+          alt="Country Image"
+          class="h-full w-full object-cover rounded-t"
+        />
+      </div>
+      <div
+        class="h-4/6 px-4 py-3"
+        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+      >
+        <div class="text-bodyHomepage font-bold mt-4 mb-2">Country</div>
+        <ul class="text-xs mt-2 font-light">
+          <li>Population: <span class="opacity-50">56454646</span></li>
+          <li>Region: <span class="opacity-50">Asia</span></li>
+          <li>Capital: <span class="opacity-50">Tokyo</span></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
