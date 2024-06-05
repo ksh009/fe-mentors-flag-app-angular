@@ -5,14 +5,12 @@ import { Subject } from "rxjs";
   providedIn: 'root'
 })
 export class ThemeDataService {
-
-  private primaryFontColorSubject = new Subject<string>();
-
-  primaryFontColor$ = this.primaryFontColorSubject.asObservable();
+  private themeModeSubject = new Subject<string>();
+  themeMode$ = this.themeModeSubject.asObservable();
 
   constructor() {}
 
-  setFontColor(color: string) {
-    this.primaryFontColorSubject.next(color);
+  toggleThemeMode(mode:string) {
+    this.themeModeSubject.next(mode);
   }
 }
