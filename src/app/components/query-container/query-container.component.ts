@@ -19,6 +19,7 @@ export class QueryContainerComponent implements OnInit {
       console.log("mode", mode);
       this.themeMode = mode;
     });
-    this.countries = data; // Assign JSON data to countries array
+    // Will be populated via a service later 
+    this.countries = data;
   }
 }
