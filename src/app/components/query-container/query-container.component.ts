@@ -9,6 +9,7 @@ import { ThemeDataService } from '../../theme-data.service';
 export class QueryContainerComponent implements OnInit {
   constructor(private themeDataService: ThemeDataService) {}
   themeMode: string = "dark";
+  regions: string[] = ["Africa", "America", "Asia", "Europe", "Oceania"];
   title = 'flag-application';
 
   ngOnInit() {
