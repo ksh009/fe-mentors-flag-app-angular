@@ -10,7 +10,6 @@ import data from '../../../assets/data.json';
 export class QueryContainerComponent implements OnInit {
   constructor(private themeDataService: ThemeDataService) {}
   themeMode: string = "dark";
-  regions: string[] = ["Africa", "America", "Asia", "Europe", "Oceania"];
   countries: any[] = [];
 
   ngOnInit() {
