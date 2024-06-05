@@ -16,15 +16,31 @@
     
     <!-- Filter Bar -->
     <div class="relative">
-      <select
-        class="appearance-none border border-gray-300 py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500"
-        [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
-      >
-        <option  value="" disabled selected>Filter by region</option>
-        <option [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'" *ngFor="let region of regions" [value]="region">{{ region }}</option>
-      </select>
-      <i class="fas fa-chevron-down absolute right-0 top-0 px-2 py-1 pointer-events-none" [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"></i>
-    </div>
+        <select
+          class="border border-gray-300 py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500"
+          [ngClass]="{
+            'text-white': themeMode === 'dark',
+            'text-veryDarkBlueLM': themeMode !== 'dark',
+            'bg-darkBlueDM': themeMode === 'dark',
+            'bg-white': themeMode !== 'dark'
+          }"
+        >
+          <option value="" disabled selected>Filter by region</option>
+          <option
+            *ngFor="let region of regions"
+            [ngClass]="{
+              'text-white': themeMode === 'dark',
+              'text-veryDarkBlueLM': themeMode !== 'dark',
+              'bg-darkBlueDM': themeMode === 'dark',
+              'bg-white': themeMode !== 'dark'
+            }"
+            [value]="region"
+          >
+            {{ region }}
+          </option>
+        </select>
+      </div>
+      
   </div>
 
   <h1 [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'">
