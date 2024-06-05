@@ -1,0 +1,9 @@
+<div
+  class="w-full h-screen flex justify-center items-center"
+  [ngClass]="themeMode === 'dark' ? 'bg-veryDarkBlueDM' : 'bg-white'"
+>
+  <h1 [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'">
+    {{ title }}
+  </h1>
+</div>
+

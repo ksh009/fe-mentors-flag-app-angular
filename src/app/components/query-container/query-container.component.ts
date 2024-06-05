@@ -1,20 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { ThemeDataService } from './theme-data.service';
+import { ThemeDataService } from '../../theme-data.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-query-container',
+  templateUrl: './query-container.component.html',
+  styleUrl: './query-container.component.css'
 })
-export class AppComponent implements OnInit {
+export class QueryContainerComponent implements OnInit {
   constructor(private themeDataService: ThemeDataService) {}
   themeMode: string = "dark";
   title = 'flag-application';
 
   ngOnInit() {
     this.themeDataService.themeMode$.subscribe((mode) => {
+      console.log("mode", mode);
       this.themeMode = mode;
     });
   }
-
 }
+
+
