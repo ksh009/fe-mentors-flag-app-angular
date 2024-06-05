@@ -16,10 +16,6 @@ export class SearchBarComponent implements OnInit {
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
     });
-    
-    this.themeDataService.searchQuery$.subscribe((searchTerm) => {
-      console.log("searchTerm", searchTerm);
-    });
   }
 
   onSearch() {
