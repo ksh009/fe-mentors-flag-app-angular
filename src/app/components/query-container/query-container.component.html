@@ -1,0 +1,13 @@
+<div
+  class="w-full h-full flex flex-col justify-center items-center font-light my-shadow"
+  [ngClass]="themeMode === 'dark' ? 'bg-veryDarkBlueDM' : 'bg-white'"
+>
+  <!-- Query container -->
+  <div class="w-full h-1/5 flex justify-between items-center px-10 py-4 mt-5">
+    <app-search-bar></app-search-bar>
+    <app-filter-bar></app-filter-bar>
+  </div>
+
+  <!-- Content -->
+  <app-flag-card></app-flag-card>
+</div>

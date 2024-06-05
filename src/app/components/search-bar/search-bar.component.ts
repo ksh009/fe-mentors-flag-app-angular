@@ -1,20 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { ThemeDataService } from './theme-data.service';
+import { ThemeDataService } from '../../theme-data.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-search-bar',
+  templateUrl: './search-bar.component.html',
+  styleUrl: './search-bar.component.css'
 })
-export class AppComponent implements OnInit {
+export class SearchBarComponent implements OnInit  {
   constructor(private themeDataService: ThemeDataService) {}
   themeMode: string = "dark";
-  title = 'flag-application';
-
+  
   ngOnInit() {
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
     });
   }
-
 }
