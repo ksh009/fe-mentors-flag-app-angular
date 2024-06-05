@@ -11,5 +11,7 @@
     placeholder="Search for a country..."
     class="px-2 py-1 bg-transparent focus:outline-none"
     [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
+    (input)="onSearch()"
+    [(ngModel)]="searchValue"
   />
 </div>
