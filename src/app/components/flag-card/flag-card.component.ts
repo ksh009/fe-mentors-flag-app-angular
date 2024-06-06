@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { ThemeDataService } from "../../services/theme-data/theme-data.service";
 import { QueryDataService } from "../../services/query-data/query-data.service";
-import data from "../../../assets/data.json";
+import data from "../../../assets/cleaned_data.json";
 
 @Component({
   selector: "app-flag-card",
@@ -42,7 +42,7 @@ export class FlagCardComponent implements OnInit {
 
     if (this.searchTerm) {
       filteredData = filteredData.filter((item) =>
-        item.name.common.toLowerCase().includes(this.searchTerm.toLowerCase())
+        item.common_name.toLowerCase().includes(this.searchTerm.toLowerCase())
       );
     }
 
