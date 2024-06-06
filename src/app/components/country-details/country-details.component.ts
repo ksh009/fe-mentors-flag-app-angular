@@ -20,15 +20,6 @@ export class CountryDetailsComponent implements OnInit {
     private themeDataService: ThemeDataService
   ) {}
 
-  // ngOnInit() {
-  //   this.themeDataService.themeMode$.subscribe((mode) => {
-  //     this.themeMode = mode;
-  //   });
-
-  //   const countryName = this.route.snapshot.paramMap.get('name');
-  //   this.country = data.find((item) => item.common_name.toLowerCase() === countryName.toLowerCase());
-  // }
-
   ngOnInit() {
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
@@ -38,9 +29,6 @@ export class CountryDetailsComponent implements OnInit {
     if (countryName) {
       const foundCountry = data.find((item) => item.common_name.toLowerCase() === countryName.toLowerCase());
       this.country = foundCountry as Country;
-    } else {
-      // Handle the case where countryName is null
-      console.log("No country name in params!!!!!")
     }
   }
   
