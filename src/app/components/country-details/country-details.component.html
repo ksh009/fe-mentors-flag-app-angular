@@ -1,10 +1,10 @@
 <div
   [ngClass]="
     themeMode === 'dark'
-      ? 'bg-darkBlue text-white'
+      ? 'bg-veryDarkBlueDM text-white'
       : 'bg-white text-veryDarkBlueLM'
   "
-  class="w-full h-full flex flex-col justify-center items-center font-light min-h-screen"
+  class="w-full h-full flex flex-col justify-center items-center min-h-screen"
 >
   <h1 class="text-3xl font-bold mb-4">{{ country.common_name }}</h1>
   <img
@@ -17,4 +17,12 @@
     <li><strong>Region:</strong> {{ country.region }}</li>
     <li><strong>Capital:</strong> {{ country.capital }}</li>
   </ul>
+
+  <button
+    (click)="goBack()"
+    [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+    class="mt-4 px-4 py-2 rounded"
+  >
+    Back
+  </button>
 </div>
