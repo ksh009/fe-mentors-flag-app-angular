@@ -17,7 +17,7 @@ export class FlagCardComponent implements OnInit {
 
   // Fix "any" later - linting error
   // Will be populated via a service later
-  countries: any[] = data;
+  countries: Country[] = data as Country[];
 
   // Store the current search term and filter term
   searchTerm: string = "";
@@ -52,6 +52,20 @@ export class FlagCardComponent implements OnInit {
       );
     }
 
-    this.countries = filteredData;
+    this.countries = filteredData as Country[];
   }
+}
+
+interface Country {
+  common_name: string;
+  official_name: string;
+  native_name: string;
+  currencies: { name: string; symbol: string };
+  capital?: string[];
+  region: string;
+  subregion: string;
+  languages: string[];
+  borders?: string[]; 
+  population: number;
+  flags: string;
 }
