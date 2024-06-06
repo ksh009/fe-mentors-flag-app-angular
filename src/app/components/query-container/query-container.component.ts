@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ThemeDataService } from '../../theme-data.service';
-import data from '../../../assets/data.json';
+import { ThemeDataService } from '../../services/theme-data/theme-data.service';
 
 @Component({
   selector: 'app-query-container',
@@ -13,7 +12,6 @@ export class QueryContainerComponent implements OnInit {
 
   ngOnInit() {
     this.themeDataService.themeMode$.subscribe((mode) => {
-      console.log("mode", mode);
       this.themeMode = mode;
     });
   }

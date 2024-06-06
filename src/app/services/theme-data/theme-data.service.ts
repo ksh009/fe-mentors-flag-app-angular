@@ -6,6 +6,7 @@ import { Subject } from "rxjs";
 })
 export class ThemeDataService {
   private themeModeSubject = new Subject<string>();
+
   themeMode$ = this.themeModeSubject.asObservable();
 
   constructor() {}
