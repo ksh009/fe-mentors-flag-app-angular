@@ -3,6 +3,7 @@ import { ThemeDataService } from "../../services/theme-data/theme-data.service";
 import { QueryDataService } from "../../services/query-data/query-data.service";
 import data from "../../../assets/cleaned_data.json";
 import { Country } from "../../interfaces/Country";
+import { Router } from '@angular/router';
 
 @Component({
   selector: "app-flag-card",
@@ -12,7 +13,8 @@ import { Country } from "../../interfaces/Country";
 export class FlagCardComponent implements OnInit {
   constructor(
     private themeDataService: ThemeDataService,
-    private queryDataService: QueryDataService
+    private queryDataService: QueryDataService,
+    private router: Router
   ) {}
   themeMode: string = "dark";
 
@@ -51,5 +53,9 @@ export class FlagCardComponent implements OnInit {
     }
 
     this.countries = filteredData as Country[];
+  }
+
+  goToDetails(countryName: string): void {
+    this.router.navigate(['/country', countryName]);
   }
 }
