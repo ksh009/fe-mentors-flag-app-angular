@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { ThemeDataService } from "../../theme-data.service";
+import { ThemeDataService } from "../../services/theme-data/theme-data.service";
 
 @Component({
   selector: "app-filter-bar",
