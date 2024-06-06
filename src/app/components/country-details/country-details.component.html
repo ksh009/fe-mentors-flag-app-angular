@@ -1,9 +1,20 @@
-<div [ngClass]="themeMode === 'dark' ? 'bg-darkBlue text-white' : 'bg-white text-veryDarkBlueLM'" class="p-4">
-    <h1 class="text-3xl font-bold mb-4">{{ country.common_name }}</h1>
-    <img [src]="country.flags" alt="{{ country.common_name }} flag" class="mb-4 w-1/2">
-    <ul>
-      <li><strong>Population:</strong> {{ country.population | number }}</li>
-      <li><strong>Region:</strong> {{ country.region }}</li>
-      <li><strong>Capital:</strong> {{ country.capital }}</li>
-    </ul>
-  </div>
+<div
+  [ngClass]="
+    themeMode === 'dark'
+      ? 'bg-darkBlue text-white'
+      : 'bg-white text-veryDarkBlueLM'
+  "
+  class="w-full h-full flex flex-col justify-center items-center font-light min-h-screen"
+>
+  <h1 class="text-3xl font-bold mb-4">{{ country.common_name }}</h1>
+  <img
+    [src]="country.flags"
+    alt="{{ country.common_name }} flag"
+    class="mb-4 w-1/2"
+  />
+  <ul>
+    <li><strong>Population:</strong> {{ country.population | number }}</li>
+    <li><strong>Region:</strong> {{ country.region }}</li>
+    <li><strong>Capital:</strong> {{ country.capital }}</li>
+  </ul>
+</div>
