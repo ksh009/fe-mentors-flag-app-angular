@@ -6,6 +6,8 @@ class="rounded shadow-lg w-32"
   class="py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500 bg-transparent h-9 text-xs w-full"
   [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
   placeholder="Filter by region"
+  (change)="onFilterTermSelect()"
+  [(ngModel)]="filterTerm"
 >
   <option
     class="border-none"
@@ -22,7 +24,7 @@ class="rounded shadow-lg w-32"
     *ngFor="let region of regions"
     [value]="region"
   >
-    {{ region }}
+    {{ region === "" ? "All" : region }}
   </option>
 </select>
 </div>
