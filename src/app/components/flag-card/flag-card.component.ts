@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { ThemeDataService } from "../../services/theme-data/theme-data.service";
 import { QueryDataService } from "../../services/query-data/query-data.service";
 import data from "../../../assets/cleaned_data.json";
+import { Country } from "../../interfaces/Country";
 
 @Component({
   selector: "app-flag-card",
@@ -51,18 +52,4 @@ export class FlagCardComponent implements OnInit {
 
     this.countries = filteredData as Country[];
   }
-}
-
-interface Country {
-  common_name: string;
-  official_name: string;
-  native_name: string;
-  currencies: { name: string; symbol: string };
-  capital?: string[];
-  region: string;
-  subregion: string;
-  languages: string[];
-  borders?: string[]; 
-  population: number;
-  flags: string;
 }
