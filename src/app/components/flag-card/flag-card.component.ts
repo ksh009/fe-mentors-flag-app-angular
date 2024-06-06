@@ -15,11 +15,8 @@ export class FlagCardComponent implements OnInit {
   ) {}
   themeMode: string = "dark";
 
-  // Fix "any" later - linting error
-  // Will be populated via a service later
   countries: Country[] = data as Country[];
 
-  // Store the current search term and filter term
   searchTerm: string = "";
   filterTerm: string = "";
 
