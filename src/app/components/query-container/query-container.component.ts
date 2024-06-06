@@ -12,7 +12,6 @@ export class QueryContainerComponent implements OnInit {
 
   ngOnInit() {
     this.themeDataService.themeMode$.subscribe((mode) => {
-      console.log("mode", mode);
       this.themeMode = mode;
     });
   }
