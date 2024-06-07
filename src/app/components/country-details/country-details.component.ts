@@ -20,9 +20,11 @@ export class CountryDetailsComponent implements OnInit {
     private route: ActivatedRoute,
     private themeDataService: ThemeDataService,
     private location: Location
-  ) {}
+  ) {
+  }
 
   ngOnInit() {
+    console.log("I render on route change!!!!")
     this.themeDataService.themeMode$.subscribe((mode) => {
       console.log("mode from details", mode)
       this.themeMode = mode;
