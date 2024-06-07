@@ -24,18 +24,23 @@ export class CountryDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.themeDataService.themeMode$.subscribe((mode) => {
+      console.log("mode from details", mode)
       this.themeMode = mode;
     });
   
+    this.getCountryDetails();
+  }
+
+  goBack(): void {
+    this.location.back();
+  }
+
+  getCountryDetails(): void {
     const countryName = this.route.snapshot.paramMap.get('name');
     if (countryName) {
       const foundCountry = data.find((item) => item.common_name.toLowerCase() === countryName.toLowerCase());
       this.country = foundCountry as Country;
     }
-  }
-
-  goBack(): void {
-    this.location.back();
   }
   
 }

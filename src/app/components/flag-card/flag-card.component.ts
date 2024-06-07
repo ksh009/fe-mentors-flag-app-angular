@@ -17,9 +17,7 @@ export class FlagCardComponent implements OnInit {
     private router: Router
   ) {}
   themeMode: string = "dark";
-
   countries: Country[] = data as Country[];
-
   searchTerm: string = "";
   filterTerm: string = "";
 
@@ -56,6 +54,7 @@ export class FlagCardComponent implements OnInit {
   }
 
   goToDetails(countryName: string): void {
+    console.log("this.themeMode from details", this.themeMode)
     this.router.navigate(['/country', countryName]);
   }
 }
