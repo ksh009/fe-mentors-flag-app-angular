@@ -1,17 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { ThemeDataService } from '../../services/theme-data/theme-data.service';
-import { Location } from '@angular/common';
+import { Component, OnInit } from "@angular/core";
+import { ActivatedRoute, Router, NavigationEnd } from "@angular/router";
+import { ThemeDataService } from "../../services/theme-data/theme-data.service";
+import { Location } from "@angular/common";
 
-// This info will need to be in a shared service. Origin will be the GET service then distribute. 
-import data from '../../../assets/cleaned_data.json';
-import { Country } from '../../interfaces/Country';
-import { Router } from "@angular/router";
+// This info will need to be in a shared service. Origin will be the GET service then distribute.
+import data from "../../../assets/cleaned_data.json";
+import { Country } from "../../interfaces/Country";
 
 @Component({
-  selector: 'app-country-details',
-  templateUrl: './country-details.component.html',
-  styleUrls: ['./country-details.component.css']
+  selector: "app-country-details",
+  templateUrl: "./country-details.component.html",
+  styleUrls: ["./country-details.component.css"],
 })
 export class CountryDetailsComponent implements OnInit {
   themeMode: string = "dark";
@@ -23,15 +22,19 @@ export class CountryDetailsComponent implements OnInit {
     private location: Location,
     private router: Router
   ) {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.getCountryDetails();
+      }
+    });
   }
 
   ngOnInit() {
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
     });
-  
-    this.getCountryDetails();
 
+    this.getCountryDetails();
   }
 
   goBack(): void {
@@ -39,9 +42,11 @@ export class CountryDetailsComponent implements OnInit {
   }
 
   getCountryDetails(): void {
-    const countryName = this.route.snapshot.paramMap.get('name');
+    const countryName = this.route.snapshot.paramMap.get("name");
     if (countryName) {
-      const foundCountry = data.find((item) => item.common_name.toLowerCase() === countryName.toLowerCase());
+      const foundCountry = data.find(
+        (item) => item.common_name.toLowerCase() === countryName.toLowerCase()
+      );
       this.country = foundCountry as Country;
     }
   }
