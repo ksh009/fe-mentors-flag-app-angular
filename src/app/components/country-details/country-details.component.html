@@ -4,88 +4,97 @@
       ? 'bg-veryDarkBlueDM text-white'
       : 'bg-white text-veryDarkBlueLM'
   "
-  class="w-full h-full flex flex-col justify-center items-center min-h-screen"
+  class="w-full h-full flex flex-col justify-center items-start min-h-screen px-10 py-7"
 >
-  <h1 class="text-3xl font-bold mb-4">{{ country.common_name }}</h1>
-  <img
-    [src]="country.flags"
-    alt="{{ country.common_name }} flag"
-    class="mb-4 w-1/2 shadow-2xl"
-  />
-  <ul class="text-xs mt-2 font-light">
-    <li>
-      Population:
-      <span class="opacity-50">
-        {{ country.population | number }}
-      </span>
-    </li>
-    <li>
-      Region:
-      <span class="opacity-50">
-        {{ country.region }}
-      </span>
-    </li>
-    <li>
-      Capital:
-      <span class="opacity-50">
-        {{ country.capital }}
-      </span>
-    </li>
-    <li>
-      Native Name:
-      <span class="opacity-50">
-        {{ country.native_name }}
-      </span>
-    </li>
-    <li>
-      Currencies:
-      <span class="opacity-50">
-        {{ country.currencies.name }} ({{ country.currencies.symbol }})
-      </span>
-    </li>
-    <li>
-      Subregion:
-      <span class="opacity-50">
-        {{ country.subregion }}
-      </span>
-    </li>
-    <li>
-      Languages:
-      <span class="opacity-50">
-        {{ country.languages.join(", ") }}
-      </span>
-    </li>
-    <li>
-      Borders:
-      <span>
-        <button
-          *ngFor="let border of country.borders"
-          [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-          class="mt-4 px-4 py-2 rounded shadow-2xl border border-gray-800 flex items-center"
-          (click)="goToDetails(border)"
-        >
-          {{ border }}
-        </button>
-      </span>
-    </li>
-    <li>
-      Top Level Domain:
-      <span class="opacity-50">
-        {{
-          country.top_level_domain && country.top_level_domain.length > 0
-            ? country.top_level_domain.join(", ")
-            : ""
-        }}
-      </span>
-    </li>
-  </ul>
-
   <button
     (click)="goBack()"
     [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-    class="mt-4 px-4 py-2 rounded shadow-2xl border border-gray-800 flex items-center"
+    class="my-7 px-4 py-2 rounded shadow-2xl border border-gray-800 flex items-center"
   >
     <i class="fas fa-arrow-left mr-2"></i>
     Back
   </button>
+
+  <!-- Details content -->
+  <div class="w-full flex">
+    <!-- image container -->
+    <div class="w-1/2">
+      <img
+        [src]="country.flags"
+        alt="{{ country.common_name }} flag"
+        class="mb-4 w-full shadow-2xl pt-5 object-cover rounded"
+      />
+    </div>
+    <!-- image content container -->
+    <div class="w-1/2 px-5">
+      <h1 class="text-3xl font-bold mb-4">{{ country.common_name }}</h1>
+      <ul class="text-xs mt-2 font-light">
+        <li>
+          Population:
+          <span class="opacity-50">
+            {{ country.population | number }}
+          </span>
+        </li>
+        <li>
+          Region:
+          <span class="opacity-50">
+            {{ country.region }}
+          </span>
+        </li>
+        <li>
+          Capital:
+          <span class="opacity-50">
+            {{ country.capital }}
+          </span>
+        </li>
+        <li>
+          Native Name:
+          <span class="opacity-50">
+            {{ country.native_name }}
+          </span>
+        </li>
+        <li>
+          Currencies:
+          <span class="opacity-50">
+            {{ country.currencies.name }} ({{ country.currencies.symbol }})
+          </span>
+        </li>
+        <li>
+          Subregion:
+          <span class="opacity-50">
+            {{ country.subregion }}
+          </span>
+        </li>
+        <li>
+          Languages:
+          <span class="opacity-50">
+            {{ country.languages.join(", ") }}
+          </span>
+        </li>
+        <li>
+          Borders:
+          <span>
+            <button
+              *ngFor="let border of country.borders"
+              [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+              class="mt-4 px-4 py-2 rounded shadow-2xl border border-gray-800 flex items-center mr-2"
+              (click)="goToDetails(border)"
+            >
+              {{ border }}
+            </button>
+          </span>
+        </li>
+        <li>
+          Top Level Domain:
+          <span class="opacity-50">
+            {{
+              country.top_level_domain && country.top_level_domain.length > 0
+                ? country.top_level_domain.join(", ")
+                : ""
+            }}
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
