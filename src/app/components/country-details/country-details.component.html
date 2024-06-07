@@ -16,6 +16,11 @@
     <li><strong>Population:</strong> {{ country.population | number }}</li>
     <li><strong>Region:</strong> {{ country.region }}</li>
     <li><strong>Capital:</strong> {{ country.capital }}</li>
+    <li><strong>Native Name:</strong> {{ country.native_name }}</li>
+    <li><strong>Currencies:</strong> {{ country.currencies?.name }} ({{ country.currencies?.symbol }})</li>
+    <li><strong>Subregion:</strong> {{ country.subregion }}</li>
+    <li><strong>Languages:</strong> {{ country.languages?.join(', ') }}</li>
+    <li><strong>Borders:</strong> {{ country.borders?.join(', ') }}</li>
   </ul>
 
   <button

@@ -8,9 +8,17 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["Dari", "Pashto", "Turkmen"],
-    "borders": ["IRN", "PAK", "TKM", "UZB", "TJK", "CHN"],
+    "borders": [
+      "Iran",
+      "Pakistan",
+      "Turkmenistan",
+      "Uzbekistan",
+      "Tajikistan",
+      "China"
+    ],
     "population": 40218234,
-    "flags": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png"
+    "flags": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
+    "top_level_domain": [".af"]
   },
   {
     "common_name": "Albania",
@@ -21,9 +29,10 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Albanian"],
-    "borders": ["MNE", "GRC", "MKD", "UNK"],
+    "borders": ["Montenegro", "Greece", "North Macedonia", "Kosovo"],
     "population": 2837743,
-    "flags": "https://flagcdn.com/w320/al.png"
+    "flags": "https://flagcdn.com/w320/al.png",
+    "top_level_domain": [".al"]
   },
   {
     "common_name": "Algeria",
@@ -34,9 +43,18 @@
     "region": "Africa",
     "subregion": "Northern Africa",
     "languages": ["Arabic"],
-    "borders": ["TUN", "LBY", "NER", "ESH", "MRT", "MLI", "MAR"],
+    "borders": [
+      "Tunisia",
+      "Libya",
+      "Niger",
+      "Western Sahara",
+      "Mauritania",
+      "Mali",
+      "Morocco"
+    ],
     "population": 44700000,
-    "flags": "https://flagcdn.com/w320/dz.png"
+    "flags": "https://flagcdn.com/w320/dz.png",
+    "top_level_domain": [".dz", "الجزائر."]
   },
   {
     "common_name": "American Samoa",
@@ -47,9 +65,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["English", "Samoan"],
-    "borders": [],
+    "borders": [""],
     "population": 55197,
-    "flags": "https://flagcdn.com/w320/as.png"
+    "flags": "https://flagcdn.com/w320/as.png",
+    "top_level_domain": [".as"]
   },
   {
     "common_name": "Andorra",
@@ -60,9 +79,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["Catalan"],
-    "borders": ["FRA", "ESP"],
+    "borders": ["France", "Spain"],
     "population": 77265,
-    "flags": "https://flagcdn.com/w320/ad.png"
+    "flags": "https://flagcdn.com/w320/ad.png",
+    "top_level_domain": [".ad"]
   },
   {
     "common_name": "Angola",
@@ -73,9 +93,10 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["Portuguese"],
-    "borders": ["COG", "COD", "ZMB", "NAM"],
+    "borders": ["Republic of the Congo", "DR Congo", "Zambia", "Namibia"],
     "population": 32866268,
-    "flags": "https://flagcdn.com/w320/ao.png"
+    "flags": "https://flagcdn.com/w320/ao.png",
+    "top_level_domain": [".ao"]
   },
   {
     "common_name": "Anguilla",
@@ -86,9 +107,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 13452,
-    "flags": "https://flagcdn.com/w320/ai.png"
+    "flags": "https://flagcdn.com/w320/ai.png",
+    "top_level_domain": [".ai"]
   },
   {
     "common_name": "Antarctica",
@@ -99,9 +121,10 @@
     "region": "Antarctic",
     "subregion": "",
     "languages": [],
-    "borders": [],
+    "borders": [""],
     "population": 1000,
-    "flags": "https://flagcdn.com/w320/aq.png"
+    "flags": "https://flagcdn.com/w320/aq.png",
+    "top_level_domain": [".aq"]
   },
   {
     "common_name": "Antigua and Barbuda",
@@ -112,9 +135,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 97928,
-    "flags": "https://flagcdn.com/w320/ag.png"
+    "flags": "https://flagcdn.com/w320/ag.png",
+    "top_level_domain": [".ag"]
   },
   {
     "common_name": "Argentina",
@@ -125,9 +149,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Guaraní", "Spanish"],
-    "borders": ["BOL", "BRA", "CHL", "PRY", "URY"],
+    "borders": ["Bolivia", "Brazil", "Chile", "Paraguay", "Uruguay"],
     "population": 45376763,
-    "flags": "https://flagcdn.com/w320/ar.png"
+    "flags": "https://flagcdn.com/w320/ar.png",
+    "top_level_domain": [".ar"]
   },
   {
     "common_name": "Armenia",
@@ -138,9 +163,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Armenian"],
-    "borders": ["AZE", "GEO", "IRN", "TUR"],
+    "borders": ["Azerbaijan", "Georgia", "Iran", "Turkey"],
     "population": 2963234,
-    "flags": "https://flagcdn.com/w320/am.png"
+    "flags": "https://flagcdn.com/w320/am.png",
+    "top_level_domain": [".am"]
   },
   {
     "common_name": "Aruba",
@@ -151,9 +177,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["Dutch", "Papiamento"],
-    "borders": [],
+    "borders": [""],
     "population": 106766,
-    "flags": "https://flagcdn.com/w320/aw.png"
+    "flags": "https://flagcdn.com/w320/aw.png",
+    "top_level_domain": [".aw"]
   },
   {
     "common_name": "Australia",
@@ -164,9 +191,10 @@
     "region": "Oceania",
     "subregion": "Australia and New Zealand",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 25687041,
-    "flags": "https://flagcdn.com/w320/au.png"
+    "flags": "https://flagcdn.com/w320/au.png",
+    "top_level_domain": [".au"]
   },
   {
     "common_name": "Austria",
@@ -177,9 +205,19 @@
     "region": "Europe",
     "subregion": "Central Europe",
     "languages": ["German"],
-    "borders": ["CZE", "DEU", "HUN", "ITA", "LIE", "SVK", "SVN", "CHE"],
+    "borders": [
+      "Czechia",
+      "Germany",
+      "Hungary",
+      "Italy",
+      "Liechtenstein",
+      "Slovakia",
+      "Slovenia",
+      "Switzerland"
+    ],
     "population": 8917205,
-    "flags": "https://flagcdn.com/w320/at.png"
+    "flags": "https://flagcdn.com/w320/at.png",
+    "top_level_domain": [".at"]
   },
   {
     "common_name": "Azerbaijan",
@@ -190,9 +228,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Azerbaijani"],
-    "borders": ["ARM", "GEO", "IRN", "RUS", "TUR"],
+    "borders": ["Armenia", "Georgia", "Iran", "Russia", "Turkey"],
     "population": 10110116,
-    "flags": "https://flagcdn.com/w320/az.png"
+    "flags": "https://flagcdn.com/w320/az.png",
+    "top_level_domain": [".az"]
   },
   {
     "common_name": "Bahamas",
@@ -203,9 +242,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 393248,
-    "flags": "https://flagcdn.com/w320/bs.png"
+    "flags": "https://flagcdn.com/w320/bs.png",
+    "top_level_domain": [".bs"]
   },
   {
     "common_name": "Bahrain",
@@ -216,9 +256,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": [],
+    "borders": [""],
     "population": 1701583,
-    "flags": "https://flagcdn.com/w320/bh.png"
+    "flags": "https://flagcdn.com/w320/bh.png",
+    "top_level_domain": [".bh"]
   },
   {
     "common_name": "Bangladesh",
@@ -229,9 +270,10 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["Bengali"],
-    "borders": ["MMR", "IND"],
+    "borders": ["Myanmar", "India"],
     "population": 164689383,
-    "flags": "https://flagcdn.com/w320/bd.png"
+    "flags": "https://flagcdn.com/w320/bd.png",
+    "top_level_domain": [".bd"]
   },
   {
     "common_name": "Barbados",
@@ -242,9 +284,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 287371,
-    "flags": "https://flagcdn.com/w320/bb.png"
+    "flags": "https://flagcdn.com/w320/bb.png",
+    "top_level_domain": [".bb"]
   },
   {
     "common_name": "Belarus",
@@ -255,9 +298,10 @@
     "region": "Europe",
     "subregion": "Eastern Europe",
     "languages": ["Belarusian", "Russian"],
-    "borders": ["LVA", "LTU", "POL", "RUS", "UKR"],
+    "borders": ["Latvia", "Lithuania", "Poland", "Russia", "Ukraine"],
     "population": 9398861,
-    "flags": "https://flagcdn.com/w320/by.png"
+    "flags": "https://flagcdn.com/w320/by.png",
+    "top_level_domain": [".by"]
   },
   {
     "common_name": "Belgium",
@@ -268,9 +312,10 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "languages": ["German", "French", "Dutch"],
-    "borders": ["FRA", "DEU", "LUX", "NLD"],
+    "borders": ["France", "Germany", "Luxembourg", "Netherlands"],
     "population": 11555997,
-    "flags": "https://flagcdn.com/w320/be.png"
+    "flags": "https://flagcdn.com/w320/be.png",
+    "top_level_domain": [".be"]
   },
   {
     "common_name": "Belize",
@@ -281,9 +326,10 @@
     "region": "Americas",
     "subregion": "Central America",
     "languages": ["Belizean Creole", "English", "Spanish"],
-    "borders": ["GTM", "MEX"],
+    "borders": ["Guatemala", "Mexico"],
     "population": 397621,
-    "flags": "https://flagcdn.com/w320/bz.png"
+    "flags": "https://flagcdn.com/w320/bz.png",
+    "top_level_domain": [".bz"]
   },
   {
     "common_name": "Benin",
@@ -294,9 +340,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["French"],
-    "borders": ["BFA", "NER", "NGA", "TGO"],
+    "borders": ["Burkina Faso", "Niger", "Nigeria", "Togo"],
     "population": 12123198,
-    "flags": "https://flagcdn.com/w320/bj.png"
+    "flags": "https://flagcdn.com/w320/bj.png",
+    "top_level_domain": [".bj"]
   },
   {
     "common_name": "Bermuda",
@@ -307,9 +354,10 @@
     "region": "Americas",
     "subregion": "North America",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 63903,
-    "flags": "https://flagcdn.com/w320/bm.png"
+    "flags": "https://flagcdn.com/w320/bm.png",
+    "top_level_domain": [".bm"]
   },
   {
     "common_name": "Bhutan",
@@ -320,9 +368,10 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["Dzongkha"],
-    "borders": ["CHN", "IND"],
+    "borders": ["China", "India"],
     "population": 771612,
-    "flags": "https://flagcdn.com/w320/bt.png"
+    "flags": "https://flagcdn.com/w320/bt.png",
+    "top_level_domain": [".bt"]
   },
   {
     "common_name": "Bolivia",
@@ -333,9 +382,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Aymara", "Guaraní", "Quechua", "Spanish"],
-    "borders": ["ARG", "BRA", "CHL", "PRY", "PER"],
+    "borders": ["Argentina", "Brazil", "Chile", "Paraguay", "Peru"],
     "population": 11673029,
-    "flags": "https://flagcdn.com/w320/bo.png"
+    "flags": "https://flagcdn.com/w320/bo.png",
+    "top_level_domain": [".bo"]
   },
   {
     "common_name": "Bosnia and Herzegovina",
@@ -346,9 +396,10 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Bosnian", "Croatian", "Serbian"],
-    "borders": ["HRV", "MNE", "SRB"],
+    "borders": ["Croatia", "Montenegro", "Serbia"],
     "population": 3280815,
-    "flags": "https://flagcdn.com/w320/ba.png"
+    "flags": "https://flagcdn.com/w320/ba.png",
+    "top_level_domain": [".ba"]
   },
   {
     "common_name": "Botswana",
@@ -359,9 +410,10 @@
     "region": "Africa",
     "subregion": "Southern Africa",
     "languages": ["English", "Tswana"],
-    "borders": ["NAM", "ZAF", "ZMB", "ZWE"],
+    "borders": ["Namibia", "South Africa", "Zambia", "Zimbabwe"],
     "population": 2351625,
-    "flags": "https://flagcdn.com/w320/bw.png"
+    "flags": "https://flagcdn.com/w320/bw.png",
+    "top_level_domain": [".bw"]
   },
   {
     "common_name": "Bouvet Island",
@@ -372,9 +424,10 @@
     "region": "Antarctic",
     "subregion": "",
     "languages": ["Norwegian"],
-    "borders": [],
+    "borders": [""],
     "population": 0,
-    "flags": "https://flagcdn.com/w320/bv.png"
+    "flags": "https://flagcdn.com/w320/bv.png",
+    "top_level_domain": [".bv"]
   },
   {
     "common_name": "Brazil",
@@ -386,19 +439,20 @@
     "subregion": "South America",
     "languages": ["Portuguese"],
     "borders": [
-      "ARG",
-      "BOL",
-      "COL",
-      "GUF",
-      "GUY",
-      "PRY",
-      "PER",
-      "SUR",
-      "URY",
-      "VEN"
+      "Argentina",
+      "Bolivia",
+      "Colombia",
+      "French Guiana",
+      "Guyana",
+      "Paraguay",
+      "Peru",
+      "Suriname",
+      "Uruguay",
+      "Venezuela"
     ],
     "population": 212559409,
-    "flags": "https://flagcdn.com/w320/br.png"
+    "flags": "https://flagcdn.com/w320/br.png",
+    "top_level_domain": [".br"]
   },
   {
     "common_name": "British Indian Ocean Territory",
@@ -409,9 +463,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 3000,
-    "flags": "https://flagcdn.com/w320/io.png"
+    "flags": "https://flagcdn.com/w320/io.png",
+    "top_level_domain": [".io"]
   },
   {
     "common_name": "British Virgin Islands",
@@ -422,9 +477,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 30237,
-    "flags": "https://flagcdn.com/w320/vg.png"
+    "flags": "https://flagcdn.com/w320/vg.png",
+    "top_level_domain": [".vg"]
   },
   {
     "common_name": "Brunei",
@@ -435,9 +491,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["Malay"],
-    "borders": ["MYS"],
+    "borders": ["Malaysia"],
     "population": 437483,
-    "flags": "https://flagcdn.com/w320/bn.png"
+    "flags": "https://flagcdn.com/w320/bn.png",
+    "top_level_domain": [".bn"]
   },
   {
     "common_name": "Bulgaria",
@@ -448,9 +505,10 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Bulgarian"],
-    "borders": ["GRC", "MKD", "ROU", "SRB", "TUR"],
+    "borders": ["Greece", "North Macedonia", "Romania", "Serbia", "Turkey"],
     "population": 6927288,
-    "flags": "https://flagcdn.com/w320/bg.png"
+    "flags": "https://flagcdn.com/w320/bg.png",
+    "top_level_domain": [".bg"]
   },
   {
     "common_name": "Burkina Faso",
@@ -461,9 +519,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["French"],
-    "borders": ["BEN", "CIV", "GHA", "MLI", "NER", "TGO"],
+    "borders": ["Benin", "Ivory Coast", "Ghana", "Mali", "Niger", "Togo"],
     "population": 20903278,
-    "flags": "https://flagcdn.com/w320/bf.png"
+    "flags": "https://flagcdn.com/w320/bf.png",
+    "top_level_domain": [".bf"]
   },
   {
     "common_name": "Burundi",
@@ -474,9 +533,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["French", "Kirundi"],
-    "borders": ["COD", "RWA", "TZA"],
+    "borders": ["DR Congo", "Rwanda", "Tanzania"],
     "population": 11890781,
-    "flags": "https://flagcdn.com/w320/bi.png"
+    "flags": "https://flagcdn.com/w320/bi.png",
+    "top_level_domain": [".bi"]
   },
   {
     "common_name": "Cambodia",
@@ -487,9 +547,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["Khmer"],
-    "borders": ["LAO", "THA", "VNM"],
+    "borders": ["Laos", "Thailand", "Vietnam"],
     "population": 16718971,
-    "flags": "https://flagcdn.com/w320/kh.png"
+    "flags": "https://flagcdn.com/w320/kh.png",
+    "top_level_domain": [".kh"]
   },
   {
     "common_name": "Cameroon",
@@ -500,9 +561,17 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["English", "French"],
-    "borders": ["CAF", "TCD", "COG", "GNQ", "GAB", "NGA"],
+    "borders": [
+      "Central African Republic",
+      "Chad",
+      "Republic of the Congo",
+      "Equatorial Guinea",
+      "Gabon",
+      "Nigeria"
+    ],
     "population": 26545864,
-    "flags": "https://flagcdn.com/w320/cm.png"
+    "flags": "https://flagcdn.com/w320/cm.png",
+    "top_level_domain": [".cm"]
   },
   {
     "common_name": "Canada",
@@ -513,9 +582,10 @@
     "region": "Americas",
     "subregion": "North America",
     "languages": ["English", "French"],
-    "borders": ["USA"],
+    "borders": ["United States"],
     "population": 38005238,
-    "flags": "https://flagcdn.com/w320/ca.png"
+    "flags": "https://flagcdn.com/w320/ca.png",
+    "top_level_domain": [".ca"]
   },
   {
     "common_name": "Cape Verde",
@@ -526,9 +596,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["Portuguese"],
-    "borders": [],
+    "borders": [""],
     "population": 555988,
-    "flags": "https://flagcdn.com/w320/cv.png"
+    "flags": "https://flagcdn.com/w320/cv.png",
+    "top_level_domain": [".cv"]
   },
   {
     "common_name": "Caribbean Netherlands",
@@ -539,9 +610,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English", "Dutch", "Papiamento"],
-    "borders": [],
+    "borders": [""],
     "population": 25987,
-    "flags": "https://flagcdn.com/w320/bq.png"
+    "flags": "https://flagcdn.com/w320/bq.png",
+    "top_level_domain": [".bq", ".nl"]
   },
   {
     "common_name": "Cayman Islands",
@@ -552,9 +624,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 65720,
-    "flags": "https://flagcdn.com/w320/ky.png"
+    "flags": "https://flagcdn.com/w320/ky.png",
+    "top_level_domain": [".ky"]
   },
   {
     "common_name": "Central African Republic",
@@ -565,9 +638,17 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["French", "Sango"],
-    "borders": ["CMR", "TCD", "COD", "COG", "SSD", "SDN"],
+    "borders": [
+      "Cameroon",
+      "Chad",
+      "DR Congo",
+      "Republic of the Congo",
+      "South Sudan",
+      "Sudan"
+    ],
     "population": 4829764,
-    "flags": "https://flagcdn.com/w320/cf.png"
+    "flags": "https://flagcdn.com/w320/cf.png",
+    "top_level_domain": [".cf"]
   },
   {
     "common_name": "Chad",
@@ -578,9 +659,17 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["Arabic", "French"],
-    "borders": ["CMR", "CAF", "LBY", "NER", "NGA", "SDN"],
+    "borders": [
+      "Cameroon",
+      "Central African Republic",
+      "Libya",
+      "Niger",
+      "Nigeria",
+      "Sudan"
+    ],
     "population": 16425859,
-    "flags": "https://flagcdn.com/w320/td.png"
+    "flags": "https://flagcdn.com/w320/td.png",
+    "top_level_domain": [".td"]
   },
   {
     "common_name": "Chile",
@@ -591,9 +680,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Spanish"],
-    "borders": ["ARG", "BOL", "PER"],
+    "borders": ["Argentina", "Bolivia", "Peru"],
     "population": 19116209,
-    "flags": "https://flagcdn.com/w320/cl.png"
+    "flags": "https://flagcdn.com/w320/cl.png",
+    "top_level_domain": [".cl"]
   },
   {
     "common_name": "China",
@@ -605,25 +695,26 @@
     "subregion": "Eastern Asia",
     "languages": ["Chinese"],
     "borders": [
-      "AFG",
-      "BTN",
-      "MMR",
-      "HKG",
-      "IND",
-      "KAZ",
-      "NPL",
-      "PRK",
-      "KGZ",
-      "LAO",
-      "MAC",
-      "MNG",
-      "PAK",
-      "RUS",
-      "TJK",
-      "VNM"
+      "Afghanistan",
+      "Bhutan",
+      "Myanmar",
+      "Hong Kong",
+      "India",
+      "Kazakhstan",
+      "Nepal",
+      "North Korea",
+      "Kyrgyzstan",
+      "Laos",
+      "Macau",
+      "Mongolia",
+      "Pakistan",
+      "Russia",
+      "Tajikistan",
+      "Vietnam"
     ],
     "population": 1402112000,
-    "flags": "https://flagcdn.com/w320/cn.png"
+    "flags": "https://flagcdn.com/w320/cn.png",
+    "top_level_domain": [".cn", ".中国", ".中國", ".公司", ".网络"]
   },
   {
     "common_name": "Christmas Island",
@@ -634,9 +725,10 @@
     "region": "Oceania",
     "subregion": "Australia and New Zealand",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 2072,
-    "flags": "https://flagcdn.com/w320/cx.png"
+    "flags": "https://flagcdn.com/w320/cx.png",
+    "top_level_domain": [".cx"]
   },
   {
     "common_name": "Cocos (Keeling) Islands",
@@ -647,9 +739,10 @@
     "region": "Oceania",
     "subregion": "Australia and New Zealand",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 544,
-    "flags": "https://flagcdn.com/w320/cc.png"
+    "flags": "https://flagcdn.com/w320/cc.png",
+    "top_level_domain": [".cc"]
   },
   {
     "common_name": "Colombia",
@@ -660,9 +753,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Spanish"],
-    "borders": ["BRA", "ECU", "PAN", "PER", "VEN"],
+    "borders": ["Brazil", "Ecuador", "Panama", "Peru", "Venezuela"],
     "population": 50882884,
-    "flags": "https://flagcdn.com/w320/co.png"
+    "flags": "https://flagcdn.com/w320/co.png",
+    "top_level_domain": [".co"]
   },
   {
     "common_name": "Comoros",
@@ -673,9 +767,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["Arabic", "French", "Comorian"],
-    "borders": [],
+    "borders": [""],
     "population": 869595,
-    "flags": "https://flagcdn.com/w320/km.png"
+    "flags": "https://flagcdn.com/w320/km.png",
+    "top_level_domain": [".km"]
   },
   {
     "common_name": "Cook Islands",
@@ -686,9 +781,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["English", "Cook Islands Māori"],
-    "borders": [],
+    "borders": [""],
     "population": 18100,
-    "flags": "https://flagcdn.com/w320/ck.png"
+    "flags": "https://flagcdn.com/w320/ck.png",
+    "top_level_domain": [".ck"]
   },
   {
     "common_name": "Costa Rica",
@@ -699,9 +795,10 @@
     "region": "Americas",
     "subregion": "Central America",
     "languages": ["Spanish"],
-    "borders": ["NIC", "PAN"],
+    "borders": ["Nicaragua", "Panama"],
     "population": 5094114,
-    "flags": "https://flagcdn.com/w320/cr.png"
+    "flags": "https://flagcdn.com/w320/cr.png",
+    "top_level_domain": [".cr"]
   },
   {
     "common_name": "Croatia",
@@ -712,9 +809,16 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Croatian"],
-    "borders": ["BIH", "HUN", "MNE", "SRB", "SVN"],
+    "borders": [
+      "Bosnia and Herzegovina",
+      "Hungary",
+      "Montenegro",
+      "Serbia",
+      "Slovenia"
+    ],
     "population": 4047200,
-    "flags": "https://flagcdn.com/w320/hr.png"
+    "flags": "https://flagcdn.com/w320/hr.png",
+    "top_level_domain": [".hr"]
   },
   {
     "common_name": "Cuba",
@@ -725,9 +829,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["Spanish"],
-    "borders": [],
+    "borders": [""],
     "population": 11326616,
-    "flags": "https://flagcdn.com/w320/cu.png"
+    "flags": "https://flagcdn.com/w320/cu.png",
+    "top_level_domain": [".cu"]
   },
   {
     "common_name": "Curaçao",
@@ -738,9 +843,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English", "Dutch", "Papiamento"],
-    "borders": [],
+    "borders": [""],
     "population": 155014,
-    "flags": "https://flagcdn.com/w320/cw.png"
+    "flags": "https://flagcdn.com/w320/cw.png",
+    "top_level_domain": [".cw"]
   },
   {
     "common_name": "Cyprus",
@@ -751,9 +857,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["Greek", "Turkish"],
-    "borders": [],
+    "borders": [""],
     "population": 1207361,
-    "flags": "https://flagcdn.com/w320/cy.png"
+    "flags": "https://flagcdn.com/w320/cy.png",
+    "top_level_domain": [".cy"]
   },
   {
     "common_name": "Czechia",
@@ -764,9 +871,10 @@
     "region": "Europe",
     "subregion": "Central Europe",
     "languages": ["Czech", "Slovak"],
-    "borders": ["AUT", "DEU", "POL", "SVK"],
+    "borders": ["Austria", "Germany", "Poland", "Slovakia"],
     "population": 10698896,
-    "flags": "https://flagcdn.com/w320/cz.png"
+    "flags": "https://flagcdn.com/w320/cz.png",
+    "top_level_domain": [".cz"]
   },
   {
     "common_name": "Denmark",
@@ -777,9 +885,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Danish"],
-    "borders": ["DEU"],
+    "borders": ["Germany"],
     "population": 5831404,
-    "flags": "https://flagcdn.com/w320/dk.png"
+    "flags": "https://flagcdn.com/w320/dk.png",
+    "top_level_domain": [".dk"]
   },
   {
     "common_name": "Djibouti",
@@ -790,9 +899,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["Arabic", "French"],
-    "borders": ["ERI", "ETH", "SOM"],
+    "borders": ["Eritrea", "Ethiopia", "Somalia"],
     "population": 988002,
-    "flags": "https://flagcdn.com/w320/dj.png"
+    "flags": "https://flagcdn.com/w320/dj.png",
+    "top_level_domain": [".dj"]
   },
   {
     "common_name": "Dominica",
@@ -803,9 +913,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 71991,
-    "flags": "https://flagcdn.com/w320/dm.png"
+    "flags": "https://flagcdn.com/w320/dm.png",
+    "top_level_domain": [".dm"]
   },
   {
     "common_name": "Dominican Republic",
@@ -816,9 +927,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["Spanish"],
-    "borders": ["HTI"],
+    "borders": ["Haiti"],
     "population": 10847904,
-    "flags": "https://flagcdn.com/w320/do.png"
+    "flags": "https://flagcdn.com/w320/do.png",
+    "top_level_domain": [".do"]
   },
   {
     "common_name": "DR Congo",
@@ -829,9 +941,20 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["French", "Kikongo", "Lingala", "Tshiluba", "Swahili"],
-    "borders": ["AGO", "BDI", "CAF", "COG", "RWA", "SSD", "TZA", "UGA", "ZMB"],
+    "borders": [
+      "Angola",
+      "Burundi",
+      "Central African Republic",
+      "Republic of the Congo",
+      "Rwanda",
+      "South Sudan",
+      "Tanzania",
+      "Uganda",
+      "Zambia"
+    ],
     "population": 108407721,
-    "flags": "https://flagcdn.com/w320/cd.png"
+    "flags": "https://flagcdn.com/w320/cd.png",
+    "top_level_domain": [".cd"]
   },
   {
     "common_name": "Ecuador",
@@ -842,9 +965,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Spanish"],
-    "borders": ["COL", "PER"],
+    "borders": ["Colombia", "Peru"],
     "population": 17643060,
-    "flags": "https://flagcdn.com/w320/ec.png"
+    "flags": "https://flagcdn.com/w320/ec.png",
+    "top_level_domain": [".ec"]
   },
   {
     "common_name": "Egypt",
@@ -855,9 +979,10 @@
     "region": "Africa",
     "subregion": "Northern Africa",
     "languages": ["Arabic"],
-    "borders": ["ISR", "LBY", "PSE", "SDN"],
+    "borders": ["Israel", "Libya", "Palestine", "Sudan"],
     "population": 102334403,
-    "flags": "https://flagcdn.com/w320/eg.png"
+    "flags": "https://flagcdn.com/w320/eg.png",
+    "top_level_domain": [".eg", ".مصر"]
   },
   {
     "common_name": "El Salvador",
@@ -868,9 +993,10 @@
     "region": "Americas",
     "subregion": "Central America",
     "languages": ["Spanish"],
-    "borders": ["GTM", "HND"],
+    "borders": ["Guatemala", "Honduras"],
     "population": 6486201,
-    "flags": "https://flagcdn.com/w320/sv.png"
+    "flags": "https://flagcdn.com/w320/sv.png",
+    "top_level_domain": [".sv"]
   },
   {
     "common_name": "Equatorial Guinea",
@@ -881,9 +1007,10 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["French", "Portuguese", "Spanish"],
-    "borders": ["CMR", "GAB"],
+    "borders": ["Cameroon", "Gabon"],
     "population": 1402985,
-    "flags": "https://flagcdn.com/w320/gq.png"
+    "flags": "https://flagcdn.com/w320/gq.png",
+    "top_level_domain": [".gq"]
   },
   {
     "common_name": "Eritrea",
@@ -894,9 +1021,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["Arabic", "English", "Tigrinya"],
-    "borders": ["DJI", "ETH", "SDN"],
+    "borders": ["Djibouti", "Ethiopia", "Sudan"],
     "population": 5352000,
-    "flags": "https://flagcdn.com/w320/er.png"
+    "flags": "https://flagcdn.com/w320/er.png",
+    "top_level_domain": [".er"]
   },
   {
     "common_name": "Estonia",
@@ -907,9 +1035,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Estonian"],
-    "borders": ["LVA", "RUS"],
+    "borders": ["Latvia", "Russia"],
     "population": 1331057,
-    "flags": "https://flagcdn.com/w320/ee.png"
+    "flags": "https://flagcdn.com/w320/ee.png",
+    "top_level_domain": [".ee"]
   },
   {
     "common_name": "Eswatini",
@@ -920,9 +1049,10 @@
     "region": "Africa",
     "subregion": "Southern Africa",
     "languages": ["English", "Swazi"],
-    "borders": ["MOZ", "ZAF"],
+    "borders": ["Mozambique", "South Africa"],
     "population": 1160164,
-    "flags": "https://flagcdn.com/w320/sz.png"
+    "flags": "https://flagcdn.com/w320/sz.png",
+    "top_level_domain": [".sz"]
   },
   {
     "common_name": "Ethiopia",
@@ -933,9 +1063,17 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["Amharic"],
-    "borders": ["DJI", "ERI", "KEN", "SOM", "SSD", "SDN"],
+    "borders": [
+      "Djibouti",
+      "Eritrea",
+      "Kenya",
+      "Somalia",
+      "South Sudan",
+      "Sudan"
+    ],
     "population": 114963583,
-    "flags": "https://flagcdn.com/w320/et.png"
+    "flags": "https://flagcdn.com/w320/et.png",
+    "top_level_domain": [".et"]
   },
   {
     "common_name": "Falkland Islands",
@@ -946,9 +1084,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 2563,
-    "flags": "https://flagcdn.com/w320/fk.png"
+    "flags": "https://flagcdn.com/w320/fk.png",
+    "top_level_domain": [".fk"]
   },
   {
     "common_name": "Faroe Islands",
@@ -959,9 +1098,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Danish", "Faroese"],
-    "borders": [],
+    "borders": [""],
     "population": 48865,
-    "flags": "https://flagcdn.com/w320/fo.png"
+    "flags": "https://flagcdn.com/w320/fo.png",
+    "top_level_domain": [".fo"]
   },
   {
     "common_name": "Fiji",
@@ -972,9 +1112,10 @@
     "region": "Oceania",
     "subregion": "Melanesia",
     "languages": ["English", "Fijian", "Fiji Hindi"],
-    "borders": [],
+    "borders": [""],
     "population": 896444,
-    "flags": "https://flagcdn.com/w320/fj.png"
+    "flags": "https://flagcdn.com/w320/fj.png",
+    "top_level_domain": [".fj"]
   },
   {
     "common_name": "Finland",
@@ -985,9 +1126,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Finnish", "Swedish"],
-    "borders": ["NOR", "SWE", "RUS"],
+    "borders": ["Norway", "Sweden", "Russia"],
     "population": 5530719,
-    "flags": "https://flagcdn.com/w320/fi.png"
+    "flags": "https://flagcdn.com/w320/fi.png",
+    "top_level_domain": [".fi"]
   },
   {
     "common_name": "France",
@@ -998,9 +1140,19 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "languages": ["French"],
-    "borders": ["AND", "BEL", "DEU", "ITA", "LUX", "MCO", "ESP", "CHE"],
+    "borders": [
+      "Andorra",
+      "Belgium",
+      "Germany",
+      "Italy",
+      "Luxembourg",
+      "Monaco",
+      "Spain",
+      "Switzerland"
+    ],
     "population": 67391582,
-    "flags": "https://flagcdn.com/w320/fr.png"
+    "flags": "https://flagcdn.com/w320/fr.png",
+    "top_level_domain": [".fr"]
   },
   {
     "common_name": "French Guiana",
@@ -1011,9 +1163,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["French"],
-    "borders": ["BRA", "SUR"],
+    "borders": ["Brazil", "Suriname"],
     "population": 254541,
-    "flags": "https://flagcdn.com/w320/gf.png"
+    "flags": "https://flagcdn.com/w320/gf.png",
+    "top_level_domain": [".gf"]
   },
   {
     "common_name": "French Polynesia",
@@ -1024,9 +1177,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 280904,
-    "flags": "https://flagcdn.com/w320/pf.png"
+    "flags": "https://flagcdn.com/w320/pf.png",
+    "top_level_domain": [".pf"]
   },
   {
     "common_name": "French Southern and Antarctic Lands",
@@ -1037,9 +1191,10 @@
     "region": "Antarctic",
     "subregion": "",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 400,
-    "flags": "https://flagcdn.com/w320/tf.png"
+    "flags": "https://flagcdn.com/w320/tf.png",
+    "top_level_domain": [".tf"]
   },
   {
     "common_name": "Gabon",
@@ -1050,9 +1205,10 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["French"],
-    "borders": ["CMR", "COG", "GNQ"],
+    "borders": ["Cameroon", "Republic of the Congo", "Equatorial Guinea"],
     "population": 2225728,
-    "flags": "https://flagcdn.com/w320/ga.png"
+    "flags": "https://flagcdn.com/w320/ga.png",
+    "top_level_domain": [".ga"]
   },
   {
     "common_name": "Gambia",
@@ -1063,9 +1219,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["English"],
-    "borders": ["SEN"],
+    "borders": ["Senegal"],
     "population": 2416664,
-    "flags": "https://flagcdn.com/w320/gm.png"
+    "flags": "https://flagcdn.com/w320/gm.png",
+    "top_level_domain": [".gm"]
   },
   {
     "common_name": "Georgia",
@@ -1076,9 +1233,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Georgian"],
-    "borders": ["ARM", "AZE", "RUS", "TUR"],
+    "borders": ["Armenia", "Azerbaijan", "Russia", "Turkey"],
     "population": 3714000,
-    "flags": "https://flagcdn.com/w320/ge.png"
+    "flags": "https://flagcdn.com/w320/ge.png",
+    "top_level_domain": [".ge"]
   },
   {
     "common_name": "Germany",
@@ -1089,9 +1247,20 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "languages": ["German"],
-    "borders": ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"],
+    "borders": [
+      "Austria",
+      "Belgium",
+      "Czechia",
+      "Denmark",
+      "France",
+      "Luxembourg",
+      "Netherlands",
+      "Poland",
+      "Switzerland"
+    ],
     "population": 83240525,
-    "flags": "https://flagcdn.com/w320/de.png"
+    "flags": "https://flagcdn.com/w320/de.png",
+    "top_level_domain": [".de"]
   },
   {
     "common_name": "Ghana",
@@ -1102,9 +1271,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["English"],
-    "borders": ["BFA", "CIV", "TGO"],
+    "borders": ["Burkina Faso", "Ivory Coast", "Togo"],
     "population": 31072945,
-    "flags": "https://flagcdn.com/w320/gh.png"
+    "flags": "https://flagcdn.com/w320/gh.png",
+    "top_level_domain": [".gh"]
   },
   {
     "common_name": "Gibraltar",
@@ -1115,9 +1285,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["English"],
-    "borders": ["ESP"],
+    "borders": ["Spain"],
     "population": 33691,
-    "flags": "https://flagcdn.com/w320/gi.png"
+    "flags": "https://flagcdn.com/w320/gi.png",
+    "top_level_domain": [".gi"]
   },
   {
     "common_name": "Greece",
@@ -1128,9 +1299,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["Greek"],
-    "borders": ["ALB", "BGR", "TUR", "MKD"],
+    "borders": ["Albania", "Bulgaria", "Turkey", "North Macedonia"],
     "population": 10715549,
-    "flags": "https://flagcdn.com/w320/gr.png"
+    "flags": "https://flagcdn.com/w320/gr.png",
+    "top_level_domain": [".gr"]
   },
   {
     "common_name": "Greenland",
@@ -1141,9 +1313,10 @@
     "region": "Americas",
     "subregion": "North America",
     "languages": ["Greenlandic"],
-    "borders": [],
+    "borders": [""],
     "population": 56367,
-    "flags": "https://flagcdn.com/w320/gl.png"
+    "flags": "https://flagcdn.com/w320/gl.png",
+    "top_level_domain": [".gl"]
   },
   {
     "common_name": "Grenada",
@@ -1154,9 +1327,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 112519,
-    "flags": "https://flagcdn.com/w320/gd.png"
+    "flags": "https://flagcdn.com/w320/gd.png",
+    "top_level_domain": [".gd"]
   },
   {
     "common_name": "Guadeloupe",
@@ -1167,9 +1341,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 400132,
-    "flags": "https://flagcdn.com/w320/gp.png"
+    "flags": "https://flagcdn.com/w320/gp.png",
+    "top_level_domain": [".gp"]
   },
   {
     "common_name": "Guam",
@@ -1180,9 +1355,10 @@
     "region": "Oceania",
     "subregion": "Micronesia",
     "languages": ["Chamorro", "English", "Spanish"],
-    "borders": [],
+    "borders": [""],
     "population": 168783,
-    "flags": "https://flagcdn.com/w320/gu.png"
+    "flags": "https://flagcdn.com/w320/gu.png",
+    "top_level_domain": [".gu"]
   },
   {
     "common_name": "Guatemala",
@@ -1193,9 +1369,10 @@
     "region": "Americas",
     "subregion": "Central America",
     "languages": ["Spanish"],
-    "borders": ["BLZ", "SLV", "HND", "MEX"],
+    "borders": ["Belize", "El Salvador", "Honduras", "Mexico"],
     "population": 16858333,
-    "flags": "https://flagcdn.com/w320/gt.png"
+    "flags": "https://flagcdn.com/w320/gt.png",
+    "top_level_domain": [".gt"]
   },
   {
     "common_name": "Guernsey",
@@ -1206,9 +1383,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["English", "French", "Guernésiais"],
-    "borders": [],
+    "borders": [""],
     "population": 62999,
-    "flags": "https://flagcdn.com/w320/gg.png"
+    "flags": "https://flagcdn.com/w320/gg.png",
+    "top_level_domain": [".gg"]
   },
   {
     "common_name": "Guinea",
@@ -1219,9 +1397,17 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["French"],
-    "borders": ["CIV", "GNB", "LBR", "MLI", "SEN", "SLE"],
+    "borders": [
+      "Ivory Coast",
+      "Guinea-Bissau",
+      "Liberia",
+      "Mali",
+      "Senegal",
+      "Sierra Leone"
+    ],
     "population": 13132792,
-    "flags": "https://flagcdn.com/w320/gn.png"
+    "flags": "https://flagcdn.com/w320/gn.png",
+    "top_level_domain": [".gn"]
   },
   {
     "common_name": "Guinea-Bissau",
@@ -1232,9 +1418,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["Portuguese", "Upper Guinea Creole"],
-    "borders": ["GIN", "SEN"],
+    "borders": ["Guinea", "Senegal"],
     "population": 1967998,
-    "flags": "https://flagcdn.com/w320/gw.png"
+    "flags": "https://flagcdn.com/w320/gw.png",
+    "top_level_domain": [".gw"]
   },
   {
     "common_name": "Guyana",
@@ -1245,9 +1432,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["English"],
-    "borders": ["BRA", "SUR", "VEN"],
+    "borders": ["Brazil", "Suriname", "Venezuela"],
     "population": 786559,
-    "flags": "https://flagcdn.com/w320/gy.png"
+    "flags": "https://flagcdn.com/w320/gy.png",
+    "top_level_domain": [".gy"]
   },
   {
     "common_name": "Haiti",
@@ -1258,9 +1446,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["French", "Haitian Creole"],
-    "borders": ["DOM"],
+    "borders": ["Dominican Republic"],
     "population": 11402533,
-    "flags": "https://flagcdn.com/w320/ht.png"
+    "flags": "https://flagcdn.com/w320/ht.png",
+    "top_level_domain": [".ht"]
   },
   {
     "common_name": "Heard Island and McDonald Islands",
@@ -1271,9 +1460,10 @@
     "region": "Antarctic",
     "subregion": "",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 0,
-    "flags": "https://flagcdn.com/w320/hm.png"
+    "flags": "https://flagcdn.com/w320/hm.png",
+    "top_level_domain": [".hm", ".aq"]
   },
   {
     "common_name": "Honduras",
@@ -1284,9 +1474,10 @@
     "region": "Americas",
     "subregion": "Central America",
     "languages": ["Spanish"],
-    "borders": ["GTM", "SLV", "NIC"],
+    "borders": ["Guatemala", "El Salvador", "Nicaragua"],
     "population": 9904608,
-    "flags": "https://flagcdn.com/w320/hn.png"
+    "flags": "https://flagcdn.com/w320/hn.png",
+    "top_level_domain": [".hn"]
   },
   {
     "common_name": "Hong Kong",
@@ -1297,9 +1488,10 @@
     "region": "Asia",
     "subregion": "Eastern Asia",
     "languages": ["English", "Chinese"],
-    "borders": ["CHN"],
+    "borders": ["China"],
     "population": 7500700,
-    "flags": "https://flagcdn.com/w320/hk.png"
+    "flags": "https://flagcdn.com/w320/hk.png",
+    "top_level_domain": [".hk", ".香港"]
   },
   {
     "common_name": "Hungary",
@@ -1310,9 +1502,18 @@
     "region": "Europe",
     "subregion": "Central Europe",
     "languages": ["Hungarian"],
-    "borders": ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
+    "borders": [
+      "Austria",
+      "Croatia",
+      "Romania",
+      "Serbia",
+      "Slovakia",
+      "Slovenia",
+      "Ukraine"
+    ],
     "population": 9749763,
-    "flags": "https://flagcdn.com/w320/hu.png"
+    "flags": "https://flagcdn.com/w320/hu.png",
+    "top_level_domain": [".hu"]
   },
   {
     "common_name": "Iceland",
@@ -1323,9 +1524,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Icelandic"],
-    "borders": [],
+    "borders": [""],
     "population": 366425,
-    "flags": "https://flagcdn.com/w320/is.png"
+    "flags": "https://flagcdn.com/w320/is.png",
+    "top_level_domain": [".is"]
   },
   {
     "common_name": "India",
@@ -1336,9 +1538,17 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["English", "Hindi", "Tamil"],
-    "borders": ["BGD", "BTN", "MMR", "CHN", "NPL", "PAK"],
+    "borders": [
+      "Bangladesh",
+      "Bhutan",
+      "Myanmar",
+      "China",
+      "Nepal",
+      "Pakistan"
+    ],
     "population": 1380004385,
-    "flags": "https://flagcdn.com/w320/in.png"
+    "flags": "https://flagcdn.com/w320/in.png",
+    "top_level_domain": [".in"]
   },
   {
     "common_name": "Indonesia",
@@ -1349,9 +1559,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["Indonesian"],
-    "borders": ["TLS", "MYS", "PNG"],
+    "borders": ["Timor-Leste", "Malaysia", "Papua New Guinea"],
     "population": 273523621,
-    "flags": "https://flagcdn.com/w320/id.png"
+    "flags": "https://flagcdn.com/w320/id.png",
+    "top_level_domain": [".id"]
   },
   {
     "common_name": "Iran",
@@ -1362,9 +1573,18 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["Persian (Farsi)"],
-    "borders": ["AFG", "ARM", "AZE", "IRQ", "PAK", "TUR", "TKM"],
+    "borders": [
+      "Afghanistan",
+      "Armenia",
+      "Azerbaijan",
+      "Iraq",
+      "Pakistan",
+      "Turkey",
+      "Turkmenistan"
+    ],
     "population": 83992953,
-    "flags": "https://flagcdn.com/w320/ir.png"
+    "flags": "https://flagcdn.com/w320/ir.png",
+    "top_level_domain": [".ir", "ایران."]
   },
   {
     "common_name": "Iraq",
@@ -1375,9 +1595,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic", "Aramaic", "Sorani"],
-    "borders": ["IRN", "JOR", "KWT", "SAU", "SYR", "TUR"],
+    "borders": ["Iran", "Jordan", "Kuwait", "Saudi Arabia", "Syria", "Turkey"],
     "population": 40222503,
-    "flags": "https://flagcdn.com/w320/iq.png"
+    "flags": "https://flagcdn.com/w320/iq.png",
+    "top_level_domain": [".iq"]
   },
   {
     "common_name": "Ireland",
@@ -1388,9 +1609,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["English", "Irish"],
-    "borders": ["GBR"],
+    "borders": ["United Kingdom"],
     "population": 4994724,
-    "flags": "https://flagcdn.com/w320/ie.png"
+    "flags": "https://flagcdn.com/w320/ie.png",
+    "top_level_domain": [".ie"]
   },
   {
     "common_name": "Isle of Man",
@@ -1401,9 +1623,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["English", "Manx"],
-    "borders": [],
+    "borders": [""],
     "population": 85032,
-    "flags": "https://flagcdn.com/w320/im.png"
+    "flags": "https://flagcdn.com/w320/im.png",
+    "top_level_domain": [".im"]
   },
   {
     "common_name": "Israel",
@@ -1414,9 +1637,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic", "Hebrew"],
-    "borders": ["EGY", "JOR", "LBN", "PSE", "SYR"],
+    "borders": ["Egypt", "Jordan", "Lebanon", "Palestine", "Syria"],
     "population": 9216900,
-    "flags": "https://flagcdn.com/w320/il.png"
+    "flags": "https://flagcdn.com/w320/il.png",
+    "top_level_domain": [".il"]
   },
   {
     "common_name": "Italy",
@@ -1427,9 +1651,17 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["Italian"],
-    "borders": ["AUT", "FRA", "SMR", "SVN", "CHE", "VAT"],
+    "borders": [
+      "Austria",
+      "France",
+      "San Marino",
+      "Slovenia",
+      "Switzerland",
+      "Vatican City"
+    ],
     "population": 59554023,
-    "flags": "https://flagcdn.com/w320/it.png"
+    "flags": "https://flagcdn.com/w320/it.png",
+    "top_level_domain": [".it"]
   },
   {
     "common_name": "Ivory Coast",
@@ -1440,9 +1672,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["French"],
-    "borders": ["BFA", "GHA", "GIN", "LBR", "MLI"],
+    "borders": ["Burkina Faso", "Ghana", "Guinea", "Liberia", "Mali"],
     "population": 26378275,
-    "flags": "https://flagcdn.com/w320/ci.png"
+    "flags": "https://flagcdn.com/w320/ci.png",
+    "top_level_domain": [".ci"]
   },
   {
     "common_name": "Jamaica",
@@ -1453,9 +1686,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English", "Jamaican Patois"],
-    "borders": [],
+    "borders": [""],
     "population": 2961161,
-    "flags": "https://flagcdn.com/w320/jm.png"
+    "flags": "https://flagcdn.com/w320/jm.png",
+    "top_level_domain": [".jm"]
   },
   {
     "common_name": "Japan",
@@ -1466,9 +1700,10 @@
     "region": "Asia",
     "subregion": "Eastern Asia",
     "languages": ["Japanese"],
-    "borders": [],
+    "borders": [""],
     "population": 125836021,
-    "flags": "https://flagcdn.com/w320/jp.png"
+    "flags": "https://flagcdn.com/w320/jp.png",
+    "top_level_domain": [".jp", ".みんな"]
   },
   {
     "common_name": "Jersey",
@@ -1479,9 +1714,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["English", "French", "Jèrriais"],
-    "borders": [],
+    "borders": [""],
     "population": 100800,
-    "flags": "https://flagcdn.com/w320/je.png"
+    "flags": "https://flagcdn.com/w320/je.png",
+    "top_level_domain": [".je"]
   },
   {
     "common_name": "Jordan",
@@ -1492,9 +1728,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["IRQ", "ISR", "PSE", "SAU", "SYR"],
+    "borders": ["Iraq", "Israel", "Palestine", "Saudi Arabia", "Syria"],
     "population": 10203140,
-    "flags": "https://flagcdn.com/w320/jo.png"
+    "flags": "https://flagcdn.com/w320/jo.png",
+    "top_level_domain": [".jo", "الاردن."]
   },
   {
     "common_name": "Kazakhstan",
@@ -1505,9 +1742,10 @@
     "region": "Asia",
     "subregion": "Central Asia",
     "languages": ["Kazakh", "Russian"],
-    "borders": ["CHN", "KGZ", "RUS", "TKM", "UZB"],
+    "borders": ["China", "Kyrgyzstan", "Russia", "Turkmenistan", "Uzbekistan"],
     "population": 18754440,
-    "flags": "https://flagcdn.com/w320/kz.png"
+    "flags": "https://flagcdn.com/w320/kz.png",
+    "top_level_domain": [".kz", ".қаз"]
   },
   {
     "common_name": "Kenya",
@@ -1518,9 +1756,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["English", "Swahili"],
-    "borders": ["ETH", "SOM", "SSD", "TZA", "UGA"],
+    "borders": ["Ethiopia", "Somalia", "South Sudan", "Tanzania", "Uganda"],
     "population": 53771300,
-    "flags": "https://flagcdn.com/w320/ke.png"
+    "flags": "https://flagcdn.com/w320/ke.png",
+    "top_level_domain": [".ke"]
   },
   {
     "common_name": "Kiribati",
@@ -1531,9 +1770,10 @@
     "region": "Oceania",
     "subregion": "Micronesia",
     "languages": ["English", "Gilbertese"],
-    "borders": [],
+    "borders": [""],
     "population": 119446,
-    "flags": "https://flagcdn.com/w320/ki.png"
+    "flags": "https://flagcdn.com/w320/ki.png",
+    "top_level_domain": [".ki"]
   },
   {
     "common_name": "Kosovo",
@@ -1544,7 +1784,7 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Albanian", "Serbian"],
-    "borders": ["ALB", "MKD", "MNE", "SRB"],
+    "borders": ["Albania", "North Macedonia", "Montenegro", "Serbia"],
     "population": 1775378,
     "flags": "https://flagcdn.com/w320/xk.png"
   },
@@ -1557,9 +1797,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["IRQ", "SAU"],
+    "borders": ["Iraq", "Saudi Arabia"],
     "population": 4270563,
-    "flags": "https://flagcdn.com/w320/kw.png"
+    "flags": "https://flagcdn.com/w320/kw.png",
+    "top_level_domain": [".kw"]
   },
   {
     "common_name": "Kyrgyzstan",
@@ -1570,9 +1811,10 @@
     "region": "Asia",
     "subregion": "Central Asia",
     "languages": ["Kyrgyz", "Russian"],
-    "borders": ["CHN", "KAZ", "TJK", "UZB"],
+    "borders": ["China", "Kazakhstan", "Tajikistan", "Uzbekistan"],
     "population": 6591600,
-    "flags": "https://flagcdn.com/w320/kg.png"
+    "flags": "https://flagcdn.com/w320/kg.png",
+    "top_level_domain": [".kg"]
   },
   {
     "common_name": "Laos",
@@ -1583,9 +1825,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["Lao"],
-    "borders": ["MMR", "KHM", "CHN", "THA", "VNM"],
+    "borders": ["Myanmar", "Cambodia", "China", "Thailand", "Vietnam"],
     "population": 7275556,
-    "flags": "https://flagcdn.com/w320/la.png"
+    "flags": "https://flagcdn.com/w320/la.png",
+    "top_level_domain": [".la"]
   },
   {
     "common_name": "Latvia",
@@ -1596,9 +1839,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Latvian"],
-    "borders": ["BLR", "EST", "LTU", "RUS"],
+    "borders": ["Belarus", "Estonia", "Lithuania", "Russia"],
     "population": 1901548,
-    "flags": "https://flagcdn.com/w320/lv.png"
+    "flags": "https://flagcdn.com/w320/lv.png",
+    "top_level_domain": [".lv"]
   },
   {
     "common_name": "Lebanon",
@@ -1609,9 +1853,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic", "French"],
-    "borders": ["ISR", "SYR"],
+    "borders": ["Israel", "Syria"],
     "population": 6825442,
-    "flags": "https://flagcdn.com/w320/lb.png"
+    "flags": "https://flagcdn.com/w320/lb.png",
+    "top_level_domain": [".lb"]
   },
   {
     "common_name": "Lesotho",
@@ -1622,9 +1867,10 @@
     "region": "Africa",
     "subregion": "Southern Africa",
     "languages": ["English", "Sotho"],
-    "borders": ["ZAF"],
+    "borders": ["South Africa"],
     "population": 2142252,
-    "flags": "https://flagcdn.com/w320/ls.png"
+    "flags": "https://flagcdn.com/w320/ls.png",
+    "top_level_domain": [".ls"]
   },
   {
     "common_name": "Liberia",
@@ -1635,9 +1881,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["English"],
-    "borders": ["GIN", "CIV", "SLE"],
+    "borders": ["Guinea", "Ivory Coast", "Sierra Leone"],
     "population": 5057677,
-    "flags": "https://flagcdn.com/w320/lr.png"
+    "flags": "https://flagcdn.com/w320/lr.png",
+    "top_level_domain": [".lr"]
   },
   {
     "common_name": "Libya",
@@ -1648,9 +1895,10 @@
     "region": "Africa",
     "subregion": "Northern Africa",
     "languages": ["Arabic"],
-    "borders": ["DZA", "TCD", "EGY", "NER", "SDN", "TUN"],
+    "borders": ["Algeria", "Chad", "Egypt", "Niger", "Sudan", "Tunisia"],
     "population": 6871287,
-    "flags": "https://flagcdn.com/w320/ly.png"
+    "flags": "https://flagcdn.com/w320/ly.png",
+    "top_level_domain": [".ly"]
   },
   {
     "common_name": "Liechtenstein",
@@ -1661,9 +1909,10 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "languages": ["German"],
-    "borders": ["AUT", "CHE"],
+    "borders": ["Austria", "Switzerland"],
     "population": 38137,
-    "flags": "https://flagcdn.com/w320/li.png"
+    "flags": "https://flagcdn.com/w320/li.png",
+    "top_level_domain": [".li"]
   },
   {
     "common_name": "Lithuania",
@@ -1674,9 +1923,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Lithuanian"],
-    "borders": ["BLR", "LVA", "POL", "RUS"],
+    "borders": ["Belarus", "Latvia", "Poland", "Russia"],
     "population": 2794700,
-    "flags": "https://flagcdn.com/w320/lt.png"
+    "flags": "https://flagcdn.com/w320/lt.png",
+    "top_level_domain": [".lt"]
   },
   {
     "common_name": "Luxembourg",
@@ -1687,9 +1937,10 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "languages": ["German", "French", "Luxembourgish"],
-    "borders": ["BEL", "FRA", "DEU"],
+    "borders": ["Belgium", "France", "Germany"],
     "population": 632275,
-    "flags": "https://flagcdn.com/w320/lu.png"
+    "flags": "https://flagcdn.com/w320/lu.png",
+    "top_level_domain": [".lu"]
   },
   {
     "common_name": "Macau",
@@ -1700,9 +1951,10 @@
     "region": "Asia",
     "subregion": "Eastern Asia",
     "languages": ["Portuguese", "Chinese"],
-    "borders": ["CHN"],
+    "borders": ["China"],
     "population": 649342,
-    "flags": "https://flagcdn.com/w320/mo.png"
+    "flags": "https://flagcdn.com/w320/mo.png",
+    "top_level_domain": [".mo"]
   },
   {
     "common_name": "Madagascar",
@@ -1713,9 +1965,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["French", "Malagasy"],
-    "borders": [],
+    "borders": [""],
     "population": 27691019,
-    "flags": "https://flagcdn.com/w320/mg.png"
+    "flags": "https://flagcdn.com/w320/mg.png",
+    "top_level_domain": [".mg"]
   },
   {
     "common_name": "Malawi",
@@ -1726,9 +1979,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["English", "Chewa"],
-    "borders": ["MOZ", "TZA", "ZMB"],
+    "borders": ["Mozambique", "Tanzania", "Zambia"],
     "population": 19129955,
-    "flags": "https://flagcdn.com/w320/mw.png"
+    "flags": "https://flagcdn.com/w320/mw.png",
+    "top_level_domain": [".mw"]
   },
   {
     "common_name": "Malaysia",
@@ -1739,9 +1993,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["English", "Malay"],
-    "borders": ["BRN", "IDN", "THA"],
+    "borders": ["Brunei", "Indonesia", "Thailand"],
     "population": 32365998,
-    "flags": "https://flagcdn.com/w320/my.png"
+    "flags": "https://flagcdn.com/w320/my.png",
+    "top_level_domain": [".my"]
   },
   {
     "common_name": "Maldives",
@@ -1752,9 +2007,10 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["Maldivian"],
-    "borders": [],
+    "borders": [""],
     "population": 540542,
-    "flags": "https://flagcdn.com/w320/mv.png"
+    "flags": "https://flagcdn.com/w320/mv.png",
+    "top_level_domain": [".mv"]
   },
   {
     "common_name": "Mali",
@@ -1765,9 +2021,18 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["French"],
-    "borders": ["DZA", "BFA", "GIN", "CIV", "MRT", "NER", "SEN"],
+    "borders": [
+      "Algeria",
+      "Burkina Faso",
+      "Guinea",
+      "Ivory Coast",
+      "Mauritania",
+      "Niger",
+      "Senegal"
+    ],
     "population": 20250834,
-    "flags": "https://flagcdn.com/w320/ml.png"
+    "flags": "https://flagcdn.com/w320/ml.png",
+    "top_level_domain": [".ml"]
   },
   {
     "common_name": "Malta",
@@ -1778,9 +2043,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["English", "Maltese"],
-    "borders": [],
+    "borders": [""],
     "population": 525285,
-    "flags": "https://flagcdn.com/w320/mt.png"
+    "flags": "https://flagcdn.com/w320/mt.png",
+    "top_level_domain": [".mt"]
   },
   {
     "common_name": "Marshall Islands",
@@ -1791,9 +2057,10 @@
     "region": "Oceania",
     "subregion": "Micronesia",
     "languages": ["English", "Marshallese"],
-    "borders": [],
+    "borders": [""],
     "population": 59194,
-    "flags": "https://flagcdn.com/w320/mh.png"
+    "flags": "https://flagcdn.com/w320/mh.png",
+    "top_level_domain": [".mh"]
   },
   {
     "common_name": "Martinique",
@@ -1804,9 +2071,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 378243,
-    "flags": "https://flagcdn.com/w320/mq.png"
+    "flags": "https://flagcdn.com/w320/mq.png",
+    "top_level_domain": [".mq"]
   },
   {
     "common_name": "Mauritania",
@@ -1817,9 +2085,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["Arabic"],
-    "borders": ["DZA", "MLI", "SEN", "ESH"],
+    "borders": ["Algeria", "Mali", "Senegal", "Western Sahara"],
     "population": 4649660,
-    "flags": "https://flagcdn.com/w320/mr.png"
+    "flags": "https://flagcdn.com/w320/mr.png",
+    "top_level_domain": [".mr"]
   },
   {
     "common_name": "Mauritius",
@@ -1830,9 +2099,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["English", "French", "Mauritian Creole"],
-    "borders": [],
+    "borders": [""],
     "population": 1265740,
-    "flags": "https://flagcdn.com/w320/mu.png"
+    "flags": "https://flagcdn.com/w320/mu.png",
+    "top_level_domain": [".mu"]
   },
   {
     "common_name": "Mayotte",
@@ -1843,9 +2113,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 226915,
-    "flags": "https://flagcdn.com/w320/yt.png"
+    "flags": "https://flagcdn.com/w320/yt.png",
+    "top_level_domain": [".yt"]
   },
   {
     "common_name": "Mexico",
@@ -1856,9 +2127,10 @@
     "region": "Americas",
     "subregion": "North America",
     "languages": ["Spanish"],
-    "borders": ["BLZ", "GTM", "USA"],
+    "borders": ["Belize", "Guatemala", "United States"],
     "population": 128932753,
-    "flags": "https://flagcdn.com/w320/mx.png"
+    "flags": "https://flagcdn.com/w320/mx.png",
+    "top_level_domain": [".mx"]
   },
   {
     "common_name": "Micronesia",
@@ -1869,9 +2141,10 @@
     "region": "Oceania",
     "subregion": "Micronesia",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 115021,
-    "flags": "https://flagcdn.com/w320/fm.png"
+    "flags": "https://flagcdn.com/w320/fm.png",
+    "top_level_domain": [".fm"]
   },
   {
     "common_name": "Moldova",
@@ -1882,9 +2155,10 @@
     "region": "Europe",
     "subregion": "Eastern Europe",
     "languages": ["Romanian"],
-    "borders": ["ROU", "UKR"],
+    "borders": ["Romania", "Ukraine"],
     "population": 2617820,
-    "flags": "https://flagcdn.com/w320/md.png"
+    "flags": "https://flagcdn.com/w320/md.png",
+    "top_level_domain": [".md"]
   },
   {
     "common_name": "Monaco",
@@ -1895,9 +2169,10 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "languages": ["French"],
-    "borders": ["FRA"],
+    "borders": ["France"],
     "population": 39244,
-    "flags": "https://flagcdn.com/w320/mc.png"
+    "flags": "https://flagcdn.com/w320/mc.png",
+    "top_level_domain": [".mc"]
   },
   {
     "common_name": "Mongolia",
@@ -1908,9 +2183,10 @@
     "region": "Asia",
     "subregion": "Eastern Asia",
     "languages": ["Mongolian"],
-    "borders": ["CHN", "RUS"],
+    "borders": ["China", "Russia"],
     "population": 3278292,
-    "flags": "https://flagcdn.com/w320/mn.png"
+    "flags": "https://flagcdn.com/w320/mn.png",
+    "top_level_domain": [".mn"]
   },
   {
     "common_name": "Montenegro",
@@ -1921,9 +2197,16 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Montenegrin"],
-    "borders": ["ALB", "BIH", "HRV", "UNK", "SRB"],
+    "borders": [
+      "Albania",
+      "Bosnia and Herzegovina",
+      "Croatia",
+      "Kosovo",
+      "Serbia"
+    ],
     "population": 621718,
-    "flags": "https://flagcdn.com/w320/me.png"
+    "flags": "https://flagcdn.com/w320/me.png",
+    "top_level_domain": [".me"]
   },
   {
     "common_name": "Montserrat",
@@ -1934,9 +2217,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 4922,
-    "flags": "https://flagcdn.com/w320/ms.png"
+    "flags": "https://flagcdn.com/w320/ms.png",
+    "top_level_domain": [".ms"]
   },
   {
     "common_name": "Morocco",
@@ -1947,9 +2231,10 @@
     "region": "Africa",
     "subregion": "Northern Africa",
     "languages": ["Arabic", "Berber"],
-    "borders": ["DZA", "ESH", "ESP"],
+    "borders": ["Algeria", "Western Sahara", "Spain"],
     "population": 36910558,
-    "flags": "https://flagcdn.com/w320/ma.png"
+    "flags": "https://flagcdn.com/w320/ma.png",
+    "top_level_domain": [".ma", "المغرب."]
   },
   {
     "common_name": "Mozambique",
@@ -1960,9 +2245,17 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["Portuguese"],
-    "borders": ["MWI", "ZAF", "SWZ", "TZA", "ZMB", "ZWE"],
+    "borders": [
+      "Malawi",
+      "South Africa",
+      "Eswatini",
+      "Tanzania",
+      "Zambia",
+      "Zimbabwe"
+    ],
     "population": 31255435,
-    "flags": "https://flagcdn.com/w320/mz.png"
+    "flags": "https://flagcdn.com/w320/mz.png",
+    "top_level_domain": [".mz"]
   },
   {
     "common_name": "Myanmar",
@@ -1973,9 +2266,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["Burmese"],
-    "borders": ["BGD", "CHN", "IND", "LAO", "THA"],
+    "borders": ["Bangladesh", "China", "India", "Laos", "Thailand"],
     "population": 54409794,
-    "flags": "https://flagcdn.com/w320/mm.png"
+    "flags": "https://flagcdn.com/w320/mm.png",
+    "top_level_domain": [".mm"]
   },
   {
     "common_name": "Namibia",
@@ -1996,9 +2290,10 @@
       "Ndonga",
       "Tswana"
     ],
-    "borders": ["AGO", "BWA", "ZAF", "ZMB"],
+    "borders": ["Angola", "Botswana", "South Africa", "Zambia"],
     "population": 2540916,
-    "flags": "https://flagcdn.com/w320/na.png"
+    "flags": "https://flagcdn.com/w320/na.png",
+    "top_level_domain": [".na"]
   },
   {
     "common_name": "Nauru",
@@ -2009,9 +2304,10 @@
     "region": "Oceania",
     "subregion": "Micronesia",
     "languages": ["English", "Nauru"],
-    "borders": [],
+    "borders": [""],
     "population": 10834,
-    "flags": "https://flagcdn.com/w320/nr.png"
+    "flags": "https://flagcdn.com/w320/nr.png",
+    "top_level_domain": [".nr"]
   },
   {
     "common_name": "Nepal",
@@ -2022,9 +2318,10 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["Nepali"],
-    "borders": ["CHN", "IND"],
+    "borders": ["China", "India"],
     "population": 29136808,
-    "flags": "https://flagcdn.com/w320/np.png"
+    "flags": "https://flagcdn.com/w320/np.png",
+    "top_level_domain": [".np"]
   },
   {
     "common_name": "Netherlands",
@@ -2035,9 +2332,10 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "languages": ["Dutch"],
-    "borders": ["BEL", "DEU"],
+    "borders": ["Belgium", "Germany"],
     "population": 16655799,
-    "flags": "https://flagcdn.com/w320/nl.png"
+    "flags": "https://flagcdn.com/w320/nl.png",
+    "top_level_domain": [".nl"]
   },
   {
     "common_name": "New Caledonia",
@@ -2048,9 +2346,10 @@
     "region": "Oceania",
     "subregion": "Melanesia",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 271960,
-    "flags": "https://flagcdn.com/w320/nc.png"
+    "flags": "https://flagcdn.com/w320/nc.png",
+    "top_level_domain": [".nc"]
   },
   {
     "common_name": "New Zealand",
@@ -2061,9 +2360,10 @@
     "region": "Oceania",
     "subregion": "Australia and New Zealand",
     "languages": ["English", "Māori", "New Zealand Sign Language"],
-    "borders": [],
+    "borders": [""],
     "population": 5084300,
-    "flags": "https://flagcdn.com/w320/nz.png"
+    "flags": "https://flagcdn.com/w320/nz.png",
+    "top_level_domain": [".nz"]
   },
   {
     "common_name": "Nicaragua",
@@ -2074,9 +2374,10 @@
     "region": "Americas",
     "subregion": "Central America",
     "languages": ["Spanish"],
-    "borders": ["CRI", "HND"],
+    "borders": ["Costa Rica", "Honduras"],
     "population": 6624554,
-    "flags": "https://flagcdn.com/w320/ni.png"
+    "flags": "https://flagcdn.com/w320/ni.png",
+    "top_level_domain": [".ni"]
   },
   {
     "common_name": "Niger",
@@ -2087,9 +2388,18 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["French"],
-    "borders": ["DZA", "BEN", "BFA", "TCD", "LBY", "MLI", "NGA"],
+    "borders": [
+      "Algeria",
+      "Benin",
+      "Burkina Faso",
+      "Chad",
+      "Libya",
+      "Mali",
+      "Nigeria"
+    ],
     "population": 24206636,
-    "flags": "https://flagcdn.com/w320/ne.png"
+    "flags": "https://flagcdn.com/w320/ne.png",
+    "top_level_domain": [".ne"]
   },
   {
     "common_name": "Nigeria",
@@ -2100,9 +2410,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["English"],
-    "borders": ["BEN", "CMR", "TCD", "NER"],
+    "borders": ["Benin", "Cameroon", "Chad", "Niger"],
     "population": 206139587,
-    "flags": "https://flagcdn.com/w320/ng.png"
+    "flags": "https://flagcdn.com/w320/ng.png",
+    "top_level_domain": [".ng"]
   },
   {
     "common_name": "Niue",
@@ -2113,9 +2424,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["English", "Niuean"],
-    "borders": [],
+    "borders": [""],
     "population": 1470,
-    "flags": "https://flagcdn.com/w320/nu.png"
+    "flags": "https://flagcdn.com/w320/nu.png",
+    "top_level_domain": [".nu"]
   },
   {
     "common_name": "Norfolk Island",
@@ -2126,9 +2438,10 @@
     "region": "Oceania",
     "subregion": "Australia and New Zealand",
     "languages": ["English", "Norfuk"],
-    "borders": [],
+    "borders": [""],
     "population": 2302,
-    "flags": "https://flagcdn.com/w320/nf.png"
+    "flags": "https://flagcdn.com/w320/nf.png",
+    "top_level_domain": [".nf"]
   },
   {
     "common_name": "North Korea",
@@ -2139,9 +2452,10 @@
     "region": "Asia",
     "subregion": "Eastern Asia",
     "languages": ["Korean"],
-    "borders": ["CHN", "KOR", "RUS"],
+    "borders": ["China", "South Korea", "Russia"],
     "population": 25778815,
-    "flags": "https://flagcdn.com/w320/kp.png"
+    "flags": "https://flagcdn.com/w320/kp.png",
+    "top_level_domain": [".kp"]
   },
   {
     "common_name": "North Macedonia",
@@ -2152,9 +2466,10 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Macedonian"],
-    "borders": ["ALB", "BGR", "GRC", "UNK", "SRB"],
+    "borders": ["Albania", "Bulgaria", "Greece", "Kosovo", "Serbia"],
     "population": 2077132,
-    "flags": "https://flagcdn.com/w320/mk.png"
+    "flags": "https://flagcdn.com/w320/mk.png",
+    "top_level_domain": [".mk"]
   },
   {
     "common_name": "Northern Mariana Islands",
@@ -2165,9 +2480,10 @@
     "region": "Oceania",
     "subregion": "Micronesia",
     "languages": ["Carolinian", "Chamorro", "English"],
-    "borders": [],
+    "borders": [""],
     "population": 57557,
-    "flags": "https://flagcdn.com/w320/mp.png"
+    "flags": "https://flagcdn.com/w320/mp.png",
+    "top_level_domain": [".mp"]
   },
   {
     "common_name": "Norway",
@@ -2178,9 +2494,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Norwegian Nynorsk", "Norwegian Bokmål", "Sami"],
-    "borders": ["FIN", "SWE", "RUS"],
+    "borders": ["Finland", "Sweden", "Russia"],
     "population": 5379475,
-    "flags": "https://flagcdn.com/w320/no.png"
+    "flags": "https://flagcdn.com/w320/no.png",
+    "top_level_domain": [".no"]
   },
   {
     "common_name": "Oman",
@@ -2191,9 +2508,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["SAU", "ARE", "YEM"],
+    "borders": ["Saudi Arabia", "United Arab Emirates", "Yemen"],
     "population": 5106622,
-    "flags": "https://flagcdn.com/w320/om.png"
+    "flags": "https://flagcdn.com/w320/om.png",
+    "top_level_domain": [".om"]
   },
   {
     "common_name": "Pakistan",
@@ -2204,9 +2522,10 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["English", "Urdu"],
-    "borders": ["AFG", "CHN", "IND", "IRN"],
+    "borders": ["Afghanistan", "China", "India", "Iran"],
     "population": 220892331,
-    "flags": "https://flagcdn.com/w320/pk.png"
+    "flags": "https://flagcdn.com/w320/pk.png",
+    "top_level_domain": [".pk"]
   },
   {
     "common_name": "Palau",
@@ -2217,9 +2536,10 @@
     "region": "Oceania",
     "subregion": "Micronesia",
     "languages": ["English", "Palauan"],
-    "borders": [],
+    "borders": [""],
     "population": 18092,
-    "flags": "https://flagcdn.com/w320/pw.png"
+    "flags": "https://flagcdn.com/w320/pw.png",
+    "top_level_domain": [".pw"]
   },
   {
     "common_name": "Palestine",
@@ -2230,9 +2550,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["ISR", "EGY", "JOR"],
+    "borders": ["Israel", "Egypt", "Jordan"],
     "population": 4803269,
-    "flags": "https://flagcdn.com/w320/ps.png"
+    "flags": "https://flagcdn.com/w320/ps.png",
+    "top_level_domain": [".ps", "فلسطين."]
   },
   {
     "common_name": "Panama",
@@ -2243,9 +2564,10 @@
     "region": "Americas",
     "subregion": "Central America",
     "languages": ["Spanish"],
-    "borders": ["COL", "CRI"],
+    "borders": ["Colombia", "Costa Rica"],
     "population": 4314768,
-    "flags": "https://flagcdn.com/w320/pa.png"
+    "flags": "https://flagcdn.com/w320/pa.png",
+    "top_level_domain": [".pa"]
   },
   {
     "common_name": "Papua New Guinea",
@@ -2256,9 +2578,10 @@
     "region": "Oceania",
     "subregion": "Melanesia",
     "languages": ["English", "Hiri Motu", "Tok Pisin"],
-    "borders": ["IDN"],
+    "borders": ["Indonesia"],
     "population": 8947027,
-    "flags": "https://flagcdn.com/w320/pg.png"
+    "flags": "https://flagcdn.com/w320/pg.png",
+    "top_level_domain": [".pg"]
   },
   {
     "common_name": "Paraguay",
@@ -2269,9 +2592,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Guaraní", "Spanish"],
-    "borders": ["ARG", "BOL", "BRA"],
+    "borders": ["Argentina", "Bolivia", "Brazil"],
     "population": 7132530,
-    "flags": "https://flagcdn.com/w320/py.png"
+    "flags": "https://flagcdn.com/w320/py.png",
+    "top_level_domain": [".py"]
   },
   {
     "common_name": "Peru",
@@ -2282,9 +2606,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Aymara", "Quechua", "Spanish"],
-    "borders": ["BOL", "BRA", "CHL", "COL", "ECU"],
+    "borders": ["Bolivia", "Brazil", "Chile", "Colombia", "Ecuador"],
     "population": 32971846,
-    "flags": "https://flagcdn.com/w320/pe.png"
+    "flags": "https://flagcdn.com/w320/pe.png",
+    "top_level_domain": [".pe"]
   },
   {
     "common_name": "Philippines",
@@ -2295,9 +2620,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["English", "Filipino"],
-    "borders": [],
+    "borders": [""],
     "population": 109581085,
-    "flags": "https://flagcdn.com/w320/ph.png"
+    "flags": "https://flagcdn.com/w320/ph.png",
+    "top_level_domain": [".ph"]
   },
   {
     "common_name": "Pitcairn Islands",
@@ -2308,9 +2634,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 56,
-    "flags": "https://flagcdn.com/w320/pn.png"
+    "flags": "https://flagcdn.com/w320/pn.png",
+    "top_level_domain": [".pn"]
   },
   {
     "common_name": "Poland",
@@ -2321,9 +2648,18 @@
     "region": "Europe",
     "subregion": "Central Europe",
     "languages": ["Polish"],
-    "borders": ["BLR", "CZE", "DEU", "LTU", "RUS", "SVK", "UKR"],
+    "borders": [
+      "Belarus",
+      "Czechia",
+      "Germany",
+      "Lithuania",
+      "Russia",
+      "Slovakia",
+      "Ukraine"
+    ],
     "population": 37950802,
-    "flags": "https://flagcdn.com/w320/pl.png"
+    "flags": "https://flagcdn.com/w320/pl.png",
+    "top_level_domain": [".pl"]
   },
   {
     "common_name": "Portugal",
@@ -2334,9 +2670,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["Portuguese"],
-    "borders": ["ESP"],
+    "borders": ["Spain"],
     "population": 10305564,
-    "flags": "https://flagcdn.com/w320/pt.png"
+    "flags": "https://flagcdn.com/w320/pt.png",
+    "top_level_domain": [".pt"]
   },
   {
     "common_name": "Puerto Rico",
@@ -2347,9 +2684,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English", "Spanish"],
-    "borders": [],
+    "borders": [""],
     "population": 3194034,
-    "flags": "https://flagcdn.com/w320/pr.png"
+    "flags": "https://flagcdn.com/w320/pr.png",
+    "top_level_domain": [".pr"]
   },
   {
     "common_name": "Qatar",
@@ -2360,9 +2698,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["SAU"],
+    "borders": ["Saudi Arabia"],
     "population": 2881060,
-    "flags": "https://flagcdn.com/w320/qa.png"
+    "flags": "https://flagcdn.com/w320/qa.png",
+    "top_level_domain": [".qa", "قطر."]
   },
   {
     "common_name": "Republic of the Congo",
@@ -2373,9 +2712,16 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["French", "Kikongo", "Lingala"],
-    "borders": ["AGO", "CMR", "CAF", "COD", "GAB"],
+    "borders": [
+      "Angola",
+      "Cameroon",
+      "Central African Republic",
+      "DR Congo",
+      "Gabon"
+    ],
     "population": 5657000,
-    "flags": "https://flagcdn.com/w320/cg.png"
+    "flags": "https://flagcdn.com/w320/cg.png",
+    "top_level_domain": [".cg"]
   },
   {
     "common_name": "Romania",
@@ -2386,9 +2732,10 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Romanian"],
-    "borders": ["BGR", "HUN", "MDA", "SRB", "UKR"],
+    "borders": ["Bulgaria", "Hungary", "Moldova", "Serbia", "Ukraine"],
     "population": 19286123,
-    "flags": "https://flagcdn.com/w320/ro.png"
+    "flags": "https://flagcdn.com/w320/ro.png",
+    "top_level_domain": [".ro"]
   },
   {
     "common_name": "Russia",
@@ -2400,23 +2747,24 @@
     "subregion": "Eastern Europe",
     "languages": ["Russian"],
     "borders": [
-      "AZE",
-      "BLR",
-      "CHN",
-      "EST",
-      "FIN",
-      "GEO",
-      "KAZ",
-      "PRK",
-      "LVA",
-      "LTU",
-      "MNG",
-      "NOR",
-      "POL",
-      "UKR"
+      "Azerbaijan",
+      "Belarus",
+      "China",
+      "Estonia",
+      "Finland",
+      "Georgia",
+      "Kazakhstan",
+      "North Korea",
+      "Latvia",
+      "Lithuania",
+      "Mongolia",
+      "Norway",
+      "Poland",
+      "Ukraine"
     ],
     "population": 144104080,
-    "flags": "https://flagcdn.com/w320/ru.png"
+    "flags": "https://flagcdn.com/w320/ru.png",
+    "top_level_domain": [".ru", ".su", ".рф"]
   },
   {
     "common_name": "Rwanda",
@@ -2427,9 +2775,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["English", "French", "Kinyarwanda"],
-    "borders": ["BDI", "COD", "TZA", "UGA"],
+    "borders": ["Burundi", "DR Congo", "Tanzania", "Uganda"],
     "population": 12952209,
-    "flags": "https://flagcdn.com/w320/rw.png"
+    "flags": "https://flagcdn.com/w320/rw.png",
+    "top_level_domain": [".rw"]
   },
   {
     "common_name": "Réunion",
@@ -2440,9 +2789,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 840974,
-    "flags": "https://flagcdn.com/w320/re.png"
+    "flags": "https://flagcdn.com/w320/re.png",
+    "top_level_domain": [".re"]
   },
   {
     "common_name": "Saint Barthélemy",
@@ -2453,9 +2803,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 4255,
-    "flags": "https://flagcdn.com/w320/bl.png"
+    "flags": "https://flagcdn.com/w320/bl.png",
+    "top_level_domain": [".bl"]
   },
   {
     "common_name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -2466,9 +2817,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 53192,
-    "flags": "https://flagcdn.com/w320/sh.png"
+    "flags": "https://flagcdn.com/w320/sh.png",
+    "top_level_domain": [".sh", ".ac"]
   },
   {
     "common_name": "Saint Kitts and Nevis",
@@ -2479,9 +2831,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 53192,
-    "flags": "https://flagcdn.com/w320/kn.png"
+    "flags": "https://flagcdn.com/w320/kn.png",
+    "top_level_domain": [".kn"]
   },
   {
     "common_name": "Saint Lucia",
@@ -2492,9 +2845,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 183629,
-    "flags": "https://flagcdn.com/w320/lc.png"
+    "flags": "https://flagcdn.com/w320/lc.png",
+    "top_level_domain": [".lc"]
   },
   {
     "common_name": "Saint Martin",
@@ -2505,9 +2859,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["French"],
-    "borders": ["SXM"],
+    "borders": ["Sint Maarten"],
     "population": 38659,
-    "flags": "https://flagcdn.com/w320/mf.png"
+    "flags": "https://flagcdn.com/w320/mf.png",
+    "top_level_domain": [".fr", ".gp"]
   },
   {
     "common_name": "Saint Pierre and Miquelon",
@@ -2518,9 +2873,10 @@
     "region": "Americas",
     "subregion": "North America",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 6069,
-    "flags": "https://flagcdn.com/w320/pm.png"
+    "flags": "https://flagcdn.com/w320/pm.png",
+    "top_level_domain": [".pm"]
   },
   {
     "common_name": "Saint Vincent and the Grenadines",
@@ -2531,9 +2887,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 110947,
-    "flags": "https://flagcdn.com/w320/vc.png"
+    "flags": "https://flagcdn.com/w320/vc.png",
+    "top_level_domain": [".vc"]
   },
   {
     "common_name": "Samoa",
@@ -2544,9 +2901,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["English", "Samoan"],
-    "borders": [],
+    "borders": [""],
     "population": 198410,
-    "flags": "https://flagcdn.com/w320/ws.png"
+    "flags": "https://flagcdn.com/w320/ws.png",
+    "top_level_domain": [".ws"]
   },
   {
     "common_name": "San Marino",
@@ -2557,9 +2915,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["Italian"],
-    "borders": ["ITA"],
+    "borders": ["Italy"],
     "population": 33938,
-    "flags": "https://flagcdn.com/w320/sm.png"
+    "flags": "https://flagcdn.com/w320/sm.png",
+    "top_level_domain": [".sm"]
   },
   {
     "common_name": "Saudi Arabia",
@@ -2570,9 +2929,18 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["IRQ", "JOR", "KWT", "OMN", "QAT", "ARE", "YEM"],
+    "borders": [
+      "Iraq",
+      "Jordan",
+      "Kuwait",
+      "Oman",
+      "Qatar",
+      "United Arab Emirates",
+      "Yemen"
+    ],
     "population": 34813867,
-    "flags": "https://flagcdn.com/w320/sa.png"
+    "flags": "https://flagcdn.com/w320/sa.png",
+    "top_level_domain": [".sa", ".السعودية"]
   },
   {
     "common_name": "Senegal",
@@ -2583,9 +2951,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["French"],
-    "borders": ["GMB", "GIN", "GNB", "MLI", "MRT"],
+    "borders": ["Gambia", "Guinea", "Guinea-Bissau", "Mali", "Mauritania"],
     "population": 16743930,
-    "flags": "https://flagcdn.com/w320/sn.png"
+    "flags": "https://flagcdn.com/w320/sn.png",
+    "top_level_domain": [".sn"]
   },
   {
     "common_name": "Serbia",
@@ -2596,9 +2965,19 @@
     "region": "Europe",
     "subregion": "Southeast Europe",
     "languages": ["Serbian"],
-    "borders": ["BIH", "BGR", "HRV", "HUN", "UNK", "MKD", "MNE", "ROU"],
+    "borders": [
+      "Bosnia and Herzegovina",
+      "Bulgaria",
+      "Croatia",
+      "Hungary",
+      "Kosovo",
+      "North Macedonia",
+      "Montenegro",
+      "Romania"
+    ],
     "population": 6908224,
-    "flags": "https://flagcdn.com/w320/rs.png"
+    "flags": "https://flagcdn.com/w320/rs.png",
+    "top_level_domain": [".rs", ".срб"]
   },
   {
     "common_name": "Seychelles",
@@ -2609,9 +2988,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["Seychellois Creole", "English", "French"],
-    "borders": [],
+    "borders": [""],
     "population": 98462,
-    "flags": "https://flagcdn.com/w320/sc.png"
+    "flags": "https://flagcdn.com/w320/sc.png",
+    "top_level_domain": [".sc"]
   },
   {
     "common_name": "Sierra Leone",
@@ -2622,9 +3002,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["English"],
-    "borders": ["GIN", "LBR"],
+    "borders": ["Guinea", "Liberia"],
     "population": 7976985,
-    "flags": "https://flagcdn.com/w320/sl.png"
+    "flags": "https://flagcdn.com/w320/sl.png",
+    "top_level_domain": [".sl"]
   },
   {
     "common_name": "Singapore",
@@ -2635,9 +3016,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["English", "Chinese", "Malay", "Tamil"],
-    "borders": [],
+    "borders": [""],
     "population": 5685807,
-    "flags": "https://flagcdn.com/w320/sg.png"
+    "flags": "https://flagcdn.com/w320/sg.png",
+    "top_level_domain": [".sg", ".新加坡", ".சிங்கப்பூர்"]
   },
   {
     "common_name": "Sint Maarten",
@@ -2648,9 +3030,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English", "French", "Dutch"],
-    "borders": ["MAF"],
+    "borders": ["Saint Martin"],
     "population": 40812,
-    "flags": "https://flagcdn.com/w320/sx.png"
+    "flags": "https://flagcdn.com/w320/sx.png",
+    "top_level_domain": [".sx"]
   },
   {
     "common_name": "Slovakia",
@@ -2661,9 +3044,10 @@
     "region": "Europe",
     "subregion": "Central Europe",
     "languages": ["Slovak"],
-    "borders": ["AUT", "CZE", "HUN", "POL", "UKR"],
+    "borders": ["Austria", "Czechia", "Hungary", "Poland", "Ukraine"],
     "population": 5458827,
-    "flags": "https://flagcdn.com/w320/sk.png"
+    "flags": "https://flagcdn.com/w320/sk.png",
+    "top_level_domain": [".sk"]
   },
   {
     "common_name": "Slovenia",
@@ -2674,9 +3058,10 @@
     "region": "Europe",
     "subregion": "Central Europe",
     "languages": ["Slovene"],
-    "borders": ["AUT", "HRV", "ITA", "HUN"],
+    "borders": ["Austria", "Croatia", "Italy", "Hungary"],
     "population": 2100126,
-    "flags": "https://flagcdn.com/w320/si.png"
+    "flags": "https://flagcdn.com/w320/si.png",
+    "top_level_domain": [".si"]
   },
   {
     "common_name": "Solomon Islands",
@@ -2687,9 +3072,10 @@
     "region": "Oceania",
     "subregion": "Melanesia",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 686878,
-    "flags": "https://flagcdn.com/w320/sb.png"
+    "flags": "https://flagcdn.com/w320/sb.png",
+    "top_level_domain": [".sb"]
   },
   {
     "common_name": "Somalia",
@@ -2700,9 +3086,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["Arabic", "Somali"],
-    "borders": ["DJI", "ETH", "KEN"],
+    "borders": ["Djibouti", "Ethiopia", "Kenya"],
     "population": 15893219,
-    "flags": "https://flagcdn.com/w320/so.png"
+    "flags": "https://flagcdn.com/w320/so.png",
+    "top_level_domain": [".so"]
   },
   {
     "common_name": "South Africa",
@@ -2725,9 +3112,17 @@
       "Xhosa",
       "Zulu"
     ],
-    "borders": ["BWA", "LSO", "MOZ", "NAM", "SWZ", "ZWE"],
+    "borders": [
+      "Botswana",
+      "Lesotho",
+      "Mozambique",
+      "Namibia",
+      "Eswatini",
+      "Zimbabwe"
+    ],
     "population": 59308690,
-    "flags": "https://flagcdn.com/w320/za.png"
+    "flags": "https://flagcdn.com/w320/za.png",
+    "top_level_domain": [".za"]
   },
   {
     "common_name": "South Georgia",
@@ -2738,9 +3133,10 @@
     "region": "Antarctic",
     "subregion": "",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 30,
-    "flags": "https://flagcdn.com/w320/gs.png"
+    "flags": "https://flagcdn.com/w320/gs.png",
+    "top_level_domain": [".gs"]
   },
   {
     "common_name": "South Korea",
@@ -2751,9 +3147,10 @@
     "region": "Asia",
     "subregion": "Eastern Asia",
     "languages": ["Korean"],
-    "borders": ["PRK"],
+    "borders": ["North Korea"],
     "population": 51780579,
-    "flags": "https://flagcdn.com/w320/kr.png"
+    "flags": "https://flagcdn.com/w320/kr.png",
+    "top_level_domain": [".kr", ".한국"]
   },
   {
     "common_name": "South Sudan",
@@ -2764,9 +3161,17 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["English"],
-    "borders": ["CAF", "COD", "ETH", "KEN", "SDN", "UGA"],
+    "borders": [
+      "Central African Republic",
+      "DR Congo",
+      "Ethiopia",
+      "Kenya",
+      "Sudan",
+      "Uganda"
+    ],
     "population": 11193729,
-    "flags": "https://flagcdn.com/w320/ss.png"
+    "flags": "https://flagcdn.com/w320/ss.png",
+    "top_level_domain": [".ss"]
   },
   {
     "common_name": "Spain",
@@ -2777,9 +3182,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["Spanish", "Catalan", "Basque", "Galician"],
-    "borders": ["AND", "FRA", "GIB", "PRT", "MAR"],
+    "borders": ["Andorra", "France", "Gibraltar", "Portugal", "Morocco"],
     "population": 47351567,
-    "flags": "https://flagcdn.com/w320/es.png"
+    "flags": "https://flagcdn.com/w320/es.png",
+    "top_level_domain": [".es"]
   },
   {
     "common_name": "Sri Lanka",
@@ -2790,9 +3196,10 @@
     "region": "Asia",
     "subregion": "Southern Asia",
     "languages": ["Sinhala", "Tamil"],
-    "borders": ["IND"],
+    "borders": ["India"],
     "population": 21919000,
-    "flags": "https://flagcdn.com/w320/lk.png"
+    "flags": "https://flagcdn.com/w320/lk.png",
+    "top_level_domain": [".lk", ".இலங்கை", ".ලංකා"]
   },
   {
     "common_name": "Sudan",
@@ -2803,9 +3210,18 @@
     "region": "Africa",
     "subregion": "Northern Africa",
     "languages": ["Arabic", "English"],
-    "borders": ["CAF", "TCD", "EGY", "ERI", "ETH", "LBY", "SSD"],
+    "borders": [
+      "Central African Republic",
+      "Chad",
+      "Egypt",
+      "Eritrea",
+      "Ethiopia",
+      "Libya",
+      "South Sudan"
+    ],
     "population": 43849269,
-    "flags": "https://flagcdn.com/w320/sd.png"
+    "flags": "https://flagcdn.com/w320/sd.png",
+    "top_level_domain": [".sd"]
   },
   {
     "common_name": "Suriname",
@@ -2816,9 +3232,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Dutch"],
-    "borders": ["BRA", "GUF", "GUY"],
+    "borders": ["Brazil", "French Guiana", "Guyana"],
     "population": 586634,
-    "flags": "https://flagcdn.com/w320/sr.png"
+    "flags": "https://flagcdn.com/w320/sr.png",
+    "top_level_domain": [".sr"]
   },
   {
     "common_name": "Svalbard and Jan Mayen",
@@ -2829,9 +3246,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Norwegian"],
-    "borders": [],
+    "borders": [""],
     "population": 2562,
-    "flags": "https://flagcdn.com/w320/sj.png"
+    "flags": "https://flagcdn.com/w320/sj.png",
+    "top_level_domain": [".sj"]
   },
   {
     "common_name": "Sweden",
@@ -2842,9 +3260,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Swedish"],
-    "borders": ["FIN", "NOR"],
+    "borders": ["Finland", "Norway"],
     "population": 10353442,
-    "flags": "https://flagcdn.com/w320/se.png"
+    "flags": "https://flagcdn.com/w320/se.png",
+    "top_level_domain": [".se"]
   },
   {
     "common_name": "Switzerland",
@@ -2855,9 +3274,10 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "languages": ["French", "Swiss German", "Italian", "Romansh"],
-    "borders": ["AUT", "FRA", "ITA", "LIE", "DEU"],
+    "borders": ["Austria", "France", "Italy", "Liechtenstein", "Germany"],
     "population": 8654622,
-    "flags": "https://flagcdn.com/w320/ch.png"
+    "flags": "https://flagcdn.com/w320/ch.png",
+    "top_level_domain": [".ch"]
   },
   {
     "common_name": "Syria",
@@ -2868,9 +3288,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["IRQ", "ISR", "JOR", "LBN", "TUR"],
+    "borders": ["Iraq", "Israel", "Jordan", "Lebanon", "Turkey"],
     "population": 17500657,
-    "flags": "https://flagcdn.com/w320/sy.png"
+    "flags": "https://flagcdn.com/w320/sy.png",
+    "top_level_domain": [".sy", "سوريا."]
   },
   {
     "common_name": "São Tomé and Príncipe",
@@ -2881,9 +3302,10 @@
     "region": "Africa",
     "subregion": "Middle Africa",
     "languages": ["Portuguese"],
-    "borders": [],
+    "borders": [""],
     "population": 219161,
-    "flags": "https://flagcdn.com/w320/st.png"
+    "flags": "https://flagcdn.com/w320/st.png",
+    "top_level_domain": [".st"]
   },
   {
     "common_name": "Taiwan",
@@ -2894,9 +3316,10 @@
     "region": "Asia",
     "subregion": "Eastern Asia",
     "languages": ["Chinese"],
-    "borders": [],
+    "borders": [""],
     "population": 23503349,
-    "flags": "https://flagcdn.com/w320/tw.png"
+    "flags": "https://flagcdn.com/w320/tw.png",
+    "top_level_domain": [".tw", ".台灣", ".台湾"]
   },
   {
     "common_name": "Tajikistan",
@@ -2907,9 +3330,10 @@
     "region": "Asia",
     "subregion": "Central Asia",
     "languages": ["Russian", "Tajik"],
-    "borders": ["AFG", "CHN", "KGZ", "UZB"],
+    "borders": ["Afghanistan", "China", "Kyrgyzstan", "Uzbekistan"],
     "population": 9537642,
-    "flags": "https://flagcdn.com/w320/tj.png"
+    "flags": "https://flagcdn.com/w320/tj.png",
+    "top_level_domain": [".tj"]
   },
   {
     "common_name": "Tanzania",
@@ -2920,9 +3344,19 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["English", "Swahili"],
-    "borders": ["BDI", "COD", "KEN", "MWI", "MOZ", "RWA", "UGA", "ZMB"],
+    "borders": [
+      "Burundi",
+      "DR Congo",
+      "Kenya",
+      "Malawi",
+      "Mozambique",
+      "Rwanda",
+      "Uganda",
+      "Zambia"
+    ],
     "population": 59734213,
-    "flags": "https://flagcdn.com/w320/tz.png"
+    "flags": "https://flagcdn.com/w320/tz.png",
+    "top_level_domain": [".tz"]
   },
   {
     "common_name": "Thailand",
@@ -2933,9 +3367,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["Thai"],
-    "borders": ["MMR", "KHM", "LAO", "MYS"],
+    "borders": ["Myanmar", "Cambodia", "Laos", "Malaysia"],
     "population": 69799978,
-    "flags": "https://flagcdn.com/w320/th.png"
+    "flags": "https://flagcdn.com/w320/th.png",
+    "top_level_domain": [".th", ".ไทย"]
   },
   {
     "common_name": "Timor-Leste",
@@ -2946,9 +3381,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["Portuguese", "Tetum"],
-    "borders": ["IDN"],
+    "borders": ["Indonesia"],
     "population": 1318442,
-    "flags": "https://flagcdn.com/w320/tl.png"
+    "flags": "https://flagcdn.com/w320/tl.png",
+    "top_level_domain": [".tl"]
   },
   {
     "common_name": "Togo",
@@ -2959,9 +3395,10 @@
     "region": "Africa",
     "subregion": "Western Africa",
     "languages": ["French"],
-    "borders": ["BEN", "BFA", "GHA"],
+    "borders": ["Benin", "Burkina Faso", "Ghana"],
     "population": 8278737,
-    "flags": "https://flagcdn.com/w320/tg.png"
+    "flags": "https://flagcdn.com/w320/tg.png",
+    "top_level_domain": [".tg"]
   },
   {
     "common_name": "Tokelau",
@@ -2972,9 +3409,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["English", "Samoan", "Tokelauan"],
-    "borders": [],
+    "borders": [""],
     "population": 1411,
-    "flags": "https://flagcdn.com/w320/tk.png"
+    "flags": "https://flagcdn.com/w320/tk.png",
+    "top_level_domain": [".tk"]
   },
   {
     "common_name": "Tonga",
@@ -2985,9 +3423,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["English", "Tongan"],
-    "borders": [],
+    "borders": [""],
     "population": 105697,
-    "flags": "https://flagcdn.com/w320/to.png"
+    "flags": "https://flagcdn.com/w320/to.png",
+    "top_level_domain": [".to"]
   },
   {
     "common_name": "Trinidad and Tobago",
@@ -2998,9 +3437,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 1399491,
-    "flags": "https://flagcdn.com/w320/tt.png"
+    "flags": "https://flagcdn.com/w320/tt.png",
+    "top_level_domain": [".tt"]
   },
   {
     "common_name": "Tunisia",
@@ -3011,9 +3451,10 @@
     "region": "Africa",
     "subregion": "Northern Africa",
     "languages": ["Arabic"],
-    "borders": ["DZA", "LBY"],
+    "borders": ["Algeria", "Libya"],
     "population": 11818618,
-    "flags": "https://flagcdn.com/w320/tn.png"
+    "flags": "https://flagcdn.com/w320/tn.png",
+    "top_level_domain": [".tn"]
   },
   {
     "common_name": "Turkey",
@@ -3024,9 +3465,19 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Turkish"],
-    "borders": ["ARM", "AZE", "BGR", "GEO", "GRC", "IRN", "IRQ", "SYR"],
+    "borders": [
+      "Armenia",
+      "Azerbaijan",
+      "Bulgaria",
+      "Georgia",
+      "Greece",
+      "Iran",
+      "Iraq",
+      "Syria"
+    ],
     "population": 84339067,
-    "flags": "https://flagcdn.com/w320/tr.png"
+    "flags": "https://flagcdn.com/w320/tr.png",
+    "top_level_domain": [".tr"]
   },
   {
     "common_name": "Turkmenistan",
@@ -3037,9 +3488,10 @@
     "region": "Asia",
     "subregion": "Central Asia",
     "languages": ["Russian", "Turkmen"],
-    "borders": ["AFG", "IRN", "KAZ", "UZB"],
+    "borders": ["Afghanistan", "Iran", "Kazakhstan", "Uzbekistan"],
     "population": 6031187,
-    "flags": "https://flagcdn.com/w320/tm.png"
+    "flags": "https://flagcdn.com/w320/tm.png",
+    "top_level_domain": [".tm"]
   },
   {
     "common_name": "Turks and Caicos Islands",
@@ -3050,9 +3502,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 38718,
-    "flags": "https://flagcdn.com/w320/tc.png"
+    "flags": "https://flagcdn.com/w320/tc.png",
+    "top_level_domain": [".tc"]
   },
   {
     "common_name": "Tuvalu",
@@ -3063,9 +3516,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["English", "Tuvaluan"],
-    "borders": [],
+    "borders": [""],
     "population": 11792,
-    "flags": "https://flagcdn.com/w320/tv.png"
+    "flags": "https://flagcdn.com/w320/tv.png",
+    "top_level_domain": [".tv"]
   },
   {
     "common_name": "Uganda",
@@ -3076,9 +3530,10 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["English", "Swahili"],
-    "borders": ["COD", "KEN", "RWA", "SSD", "TZA"],
+    "borders": ["DR Congo", "Kenya", "Rwanda", "South Sudan", "Tanzania"],
     "population": 45741000,
-    "flags": "https://flagcdn.com/w320/ug.png"
+    "flags": "https://flagcdn.com/w320/ug.png",
+    "top_level_domain": [".ug"]
   },
   {
     "common_name": "Ukraine",
@@ -3089,9 +3544,18 @@
     "region": "Europe",
     "subregion": "Eastern Europe",
     "languages": ["Ukrainian"],
-    "borders": ["BLR", "HUN", "MDA", "POL", "ROU", "RUS", "SVK"],
+    "borders": [
+      "Belarus",
+      "Hungary",
+      "Moldova",
+      "Poland",
+      "Romania",
+      "Russia",
+      "Slovakia"
+    ],
     "population": 44134693,
-    "flags": "https://flagcdn.com/w320/ua.png"
+    "flags": "https://flagcdn.com/w320/ua.png",
+    "top_level_domain": [".ua", ".укр"]
   },
   {
     "common_name": "United Arab Emirates",
@@ -3102,9 +3566,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["OMN", "SAU"],
+    "borders": ["Oman", "Saudi Arabia"],
     "population": 9890400,
-    "flags": "https://flagcdn.com/w320/ae.png"
+    "flags": "https://flagcdn.com/w320/ae.png",
+    "top_level_domain": [".ae", "امارات."]
   },
   {
     "common_name": "United Kingdom",
@@ -3115,9 +3580,10 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["English"],
-    "borders": ["IRL"],
+    "borders": ["Ireland"],
     "population": 67215293,
-    "flags": "https://flagcdn.com/w320/gb.png"
+    "flags": "https://flagcdn.com/w320/gb.png",
+    "top_level_domain": [".uk"]
   },
   {
     "common_name": "United States",
@@ -3128,9 +3594,10 @@
     "region": "Americas",
     "subregion": "North America",
     "languages": ["English"],
-    "borders": ["CAN", "MEX"],
+    "borders": ["Canada", "Mexico"],
     "population": 329484123,
-    "flags": "https://flagcdn.com/w320/us.png"
+    "flags": "https://flagcdn.com/w320/us.png",
+    "top_level_domain": [".us"]
   },
   {
     "common_name": "United States Minor Outlying Islands",
@@ -3141,9 +3608,10 @@
     "region": "Americas",
     "subregion": "North America",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 300,
-    "flags": "https://flagcdn.com/w320/um.png"
+    "flags": "https://flagcdn.com/w320/um.png",
+    "top_level_domain": [".us"]
   },
   {
     "common_name": "United States Virgin Islands",
@@ -3154,9 +3622,10 @@
     "region": "Americas",
     "subregion": "Caribbean",
     "languages": ["English"],
-    "borders": [],
+    "borders": [""],
     "population": 106290,
-    "flags": "https://flagcdn.com/w320/vi.png"
+    "flags": "https://flagcdn.com/w320/vi.png",
+    "top_level_domain": [".vi"]
   },
   {
     "common_name": "Uruguay",
@@ -3167,9 +3636,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Spanish"],
-    "borders": ["ARG", "BRA"],
+    "borders": ["Argentina", "Brazil"],
     "population": 3473727,
-    "flags": "https://flagcdn.com/w320/uy.png"
+    "flags": "https://flagcdn.com/w320/uy.png",
+    "top_level_domain": [".uy"]
   },
   {
     "common_name": "Uzbekistan",
@@ -3180,9 +3650,16 @@
     "region": "Asia",
     "subregion": "Central Asia",
     "languages": ["Russian", "Uzbek"],
-    "borders": ["AFG", "KAZ", "KGZ", "TJK", "TKM"],
+    "borders": [
+      "Afghanistan",
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan"
+    ],
     "population": 34232050,
-    "flags": "https://flagcdn.com/w320/uz.png"
+    "flags": "https://flagcdn.com/w320/uz.png",
+    "top_level_domain": [".uz"]
   },
   {
     "common_name": "Vanuatu",
@@ -3193,9 +3670,10 @@
     "region": "Oceania",
     "subregion": "Melanesia",
     "languages": ["Bislama", "English", "French"],
-    "borders": [],
+    "borders": [""],
     "population": 307150,
-    "flags": "https://flagcdn.com/w320/vu.png"
+    "flags": "https://flagcdn.com/w320/vu.png",
+    "top_level_domain": [".vu"]
   },
   {
     "common_name": "Vatican City",
@@ -3206,9 +3684,10 @@
     "region": "Europe",
     "subregion": "Southern Europe",
     "languages": ["Italian", "Latin"],
-    "borders": ["ITA"],
+    "borders": ["Italy"],
     "population": 451,
-    "flags": "https://flagcdn.com/w320/va.png"
+    "flags": "https://flagcdn.com/w320/va.png",
+    "top_level_domain": [".va"]
   },
   {
     "common_name": "Venezuela",
@@ -3219,9 +3698,10 @@
     "region": "Americas",
     "subregion": "South America",
     "languages": ["Spanish"],
-    "borders": ["BRA", "COL", "GUY"],
+    "borders": ["Brazil", "Colombia", "Guyana"],
     "population": 28435943,
-    "flags": "https://flagcdn.com/w320/ve.png"
+    "flags": "https://flagcdn.com/w320/ve.png",
+    "top_level_domain": [".ve"]
   },
   {
     "common_name": "Vietnam",
@@ -3232,9 +3712,10 @@
     "region": "Asia",
     "subregion": "South-Eastern Asia",
     "languages": ["Vietnamese"],
-    "borders": ["KHM", "CHN", "LAO"],
+    "borders": ["Cambodia", "China", "Laos"],
     "population": 97338583,
-    "flags": "https://flagcdn.com/w320/vn.png"
+    "flags": "https://flagcdn.com/w320/vn.png",
+    "top_level_domain": [".vn"]
   },
   {
     "common_name": "Wallis and Futuna",
@@ -3245,9 +3726,10 @@
     "region": "Oceania",
     "subregion": "Polynesia",
     "languages": ["French"],
-    "borders": [],
+    "borders": [""],
     "population": 11750,
-    "flags": "https://flagcdn.com/w320/wf.png"
+    "flags": "https://flagcdn.com/w320/wf.png",
+    "top_level_domain": [".wf"]
   },
   {
     "common_name": "Western Sahara",
@@ -3258,9 +3740,10 @@
     "region": "Africa",
     "subregion": "Northern Africa",
     "languages": ["Berber", "Hassaniya", "Spanish"],
-    "borders": ["DZA", "MRT", "MAR"],
+    "borders": ["Algeria", "Mauritania", "Morocco"],
     "population": 510713,
-    "flags": "https://flagcdn.com/w320/eh.png"
+    "flags": "https://flagcdn.com/w320/eh.png",
+    "top_level_domain": [".eh"]
   },
   {
     "common_name": "Yemen",
@@ -3271,9 +3754,10 @@
     "region": "Asia",
     "subregion": "Western Asia",
     "languages": ["Arabic"],
-    "borders": ["OMN", "SAU"],
+    "borders": ["Oman", "Saudi Arabia"],
     "population": 29825968,
-    "flags": "https://flagcdn.com/w320/ye.png"
+    "flags": "https://flagcdn.com/w320/ye.png",
+    "top_level_domain": [".ye"]
   },
   {
     "common_name": "Zambia",
@@ -3284,9 +3768,19 @@
     "region": "Africa",
     "subregion": "Eastern Africa",
     "languages": ["English"],
-    "borders": ["AGO", "BWA", "COD", "MWI", "MOZ", "NAM", "TZA", "ZWE"],
+    "borders": [
+      "Angola",
+      "Botswana",
+      "DR Congo",
+      "Malawi",
+      "Mozambique",
+      "Namibia",
+      "Tanzania",
+      "Zimbabwe"
+    ],
     "population": 18383956,
-    "flags": "https://flagcdn.com/w320/zm.png"
+    "flags": "https://flagcdn.com/w320/zm.png",
+    "top_level_domain": [".zm"]
   },
   {
     "common_name": "Zimbabwe",
@@ -3313,9 +3807,10 @@
       "Xhosa",
       "Zimbabwean Sign Language"
     ],
-    "borders": ["BWA", "MOZ", "ZAF", "ZMB"],
+    "borders": ["Botswana", "Mozambique", "South Africa", "Zambia"],
     "population": 14862927,
-    "flags": "https://flagcdn.com/w320/zw.png"
+    "flags": "https://flagcdn.com/w320/zw.png",
+    "top_level_domain": [".zw"]
   },
   {
     "common_name": "Åland Islands",
@@ -3326,8 +3821,9 @@
     "region": "Europe",
     "subregion": "Northern Europe",
     "languages": ["Swedish"],
-    "borders": [],
+    "borders": [""],
     "population": 29458,
-    "flags": "https://flagcdn.com/w320/ax.png"
+    "flags": "https://flagcdn.com/w320/ax.png",
+    "top_level_domain": [".ax"]
   }
 ]
