@@ -2,6 +2,8 @@ import { Component, OnInit } from "@angular/core";
 import { ThemeDataService } from "../../services/theme-data/theme-data.service";
 import { QueryDataService } from "../../services/query-data/query-data.service";
 import data from "../../../assets/cleaned_data.json";
+import { Country } from "../../interfaces/Country";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-flag-card",
@@ -11,15 +13,11 @@ import data from "../../../assets/cleaned_data.json";
 export class FlagCardComponent implements OnInit {
   constructor(
     private themeDataService: ThemeDataService,
-    private queryDataService: QueryDataService
+    private queryDataService: QueryDataService,
+    private router: Router
   ) {}
   themeMode: string = "dark";
-
-  // Fix "any" later - linting error
-  // Will be populated via a service later
   countries: Country[] = data as Country[];
-
-  // Store the current search term and filter term
   searchTerm: string = "";
   filterTerm: string = "";
 
@@ -35,6 +33,16 @@ export class FlagCardComponent implements OnInit {
       this.filterTerm = filterTerm;
       this.applyFilters();
     });
+  }
+
+  getCurrentThemeMode(): string | void {
+    let newMode;
+    this.themeDataService.themeMode$.subscribe((mode) => {
+      newMode = mode;
+    });
+    if (newMode) {
+      return newMode;
+    }
   }
 
   applyFilters(): void {
@@ -54,18 +62,8 @@ export class FlagCardComponent implements OnInit {
 
     this.countries = filteredData as Country[];
   }
-}
 
-interface Country {
-  common_name: string;
-  official_name: string;
-  native_name: string;
-  currencies: { name: string; symbol: string };
-  capital?: string[];
-  region: string;
-  subregion: string;
-  languages: string[];
-  borders?: string[]; 
-  population: number;
-  flags: string;
+  goToDetails(countryName: string): void {
+    this.router.navigate(["/country", countryName]);
+  }
 }

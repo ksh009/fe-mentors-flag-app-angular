@@ -1,17 +1,20 @@
-import { Injectable } from '@angular/core';
-import { Subject } from "rxjs";
+import { Injectable } from "@angular/core";
+import { BehaviorSubject, distinctUntilChanged, Observable } from "rxjs";
+
+export type Theme = "light" | "dark";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class ThemeDataService {
-  private themeModeSubject = new Subject<string>();
-
-  themeMode$ = this.themeModeSubject.asObservable();
+  private themeModeSubject = new BehaviorSubject<Theme>("dark");
+  themeMode$: Observable<Theme> = this.themeModeSubject
+    .asObservable()
+    .pipe(distinctUntilChanged());
 
   constructor() {}
 
-  toggleThemeMode(mode:string) {
+  toggleThemeMode(mode: Theme) {
     this.themeModeSubject.next(mode);
   }
 }
