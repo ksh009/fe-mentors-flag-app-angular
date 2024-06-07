@@ -12,15 +12,56 @@
     alt="{{ country.common_name }} flag"
     class="mb-4 w-1/2 shadow-2xl"
   />
-  <ul>
-    <li><strong>Population:</strong> {{ country.population | number }}</li>
-    <li><strong>Region:</strong> {{ country.region }}</li>
-    <li><strong>Capital:</strong> {{ country.capital }}</li>
-    <li><strong>Native Name:</strong> {{ country.native_name }}</li>
-    <li><strong>Currencies:</strong> {{ country.currencies?.name }} ({{ country.currencies?.symbol }})</li>
-    <li><strong>Subregion:</strong> {{ country.subregion }}</li>
-    <li><strong>Languages:</strong> {{ country.languages?.join(', ') }}</li>
-    <li><strong>Borders:</strong> {{ country.borders?.join(', ') }}</li>
+  <ul class="text-xs mt-2 font-light">
+    <li>
+      Population:
+      <span class="opacity-50">
+        {{ country.population | number }}
+      </span>
+    </li>
+    <li>
+      Region:
+      <span class="opacity-50">
+        {{ country.region }}
+      </span>
+    </li>
+    <li>
+      Capital:
+      <span class="opacity-50">
+        {{ country.capital }}
+      </span>
+    </li>
+    <li>
+      Native Name:
+      <span class="opacity-50">
+        {{ country.native_name }}
+      </span>
+    </li>
+    <li>
+      Currencies:
+      <span class="opacity-50">
+        {{ country.currencies.name }} ({{ country.currencies.symbol }})
+      </span>
+    </li>
+    <li>
+      Subregion:
+      <span class="opacity-50">
+        {{ country.subregion }}
+      </span>
+    </li>
+    <li>
+      Languages:
+      <span class="opacity-50">
+        {{ country.languages.join(", ") }}
+      </span>
+    </li>
+    <li>
+      Borders:
+      <span class="opacity-50">
+        {{ country.borders && country.borders.length > 0 ? country.borders.join(", ") : "" }}
+      </span>
+    </li>
+    <!-- <li>Top Level Domain:</strong> {{ country.top_level_domain.join(', ') }}</li> -->
   </ul>
 
   <button
