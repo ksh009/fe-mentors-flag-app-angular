@@ -9,15 +9,12 @@
   <button
     (click)="goBack()"
     [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-    class="my-7 px-4 py-2 rounded shadow-2xl border border-gray-800 flex items-center justify-center w-28 h-9 text-bodyHomepage font-light"
+    class="my-7 px-4 py-2 rounded shadow-xl flex items-center justify-center w-28 h-9 text-bodyHomepage font-light"
   >
     <i class="fas fa-arrow-left mr-2"></i>
     Back
   </button>
-
-  <!-- Details content -->
   <div class="w-full flex mt-5">
-    <!-- image container -->
     <div class="w-1/2 h-96 justify-center items-center">
       <img
         [src]="country.flags"
@@ -25,47 +22,37 @@
         class="w-11/12 h-72 shadow-2xl rounded object-center"
       />
     </div>
-    <!-- image content container -->
-    <div class="w-1/2 px-5 justify-center items-center">
-      <h1 class="text-3xl font-bold mb-4">{{ country.common_name }}</h1>
-      <!-- content ul columns -->
-      <div class="flex justify-between w-full min-h-44">
+    <div class="w-1/2 justify-center items-center">
+      <h1 class="text-3xl font-bold mb-2">{{ country.common_name }}</h1>
+      <div class="grid grid-cols-2 grid-x-9 w-full min-h-32">
         <ul class="text-xs mt-2 font-normal">
-          <li>
-            Native Name:
-            <span class="opacity-50">
-              {{ country.native_name }}
-            </span>
+          <li class="flex justify-start w-full mb-1.5">
+            <div class="font-semiBold min-w-fit">Native Name:</div>
+            <span class="opacity-80 ms-2">{{ country.native_name }}</span>
           </li>
-          <li>
-            Population:
-            <span class="opacity-50">
-              {{ country.population | number }}
-            </span>
+          <li class="flex justify-start w-full mb-1.5">
+            <div class="font-semiBold min-w-fit">Population:</div>
+            <span class="opacity-80 ms-2">{{
+              country.population | number
+            }}</span>
           </li>
-          <li>
-            Region:
-            <span class="opacity-50">
-              {{ country.region }}
-            </span>
+          <li class="flex justify-start w-full mb-1.5">
+            <div class="font-semiBold min-w-fit">Region:</div>
+            <span class="opacity-80 ms-2">{{ country.region }}</span>
           </li>
-          <li>
-            Subregion:
-            <span class="opacity-50">
-              {{ country.subregion }}
-            </span>
+          <li class="flex justify-start w-full mb-1.5">
+            <div class="font-semiBold min-w-fit">Subregion:</div>
+            <span class="opacity-80 ms-2">{{ country.subregion }}</span>
           </li>
-          <li>
-            Capital:
-            <span class="opacity-50">
-              {{ country.capital }}
-            </span>
+          <li class="flex justify-start w-full mb-1.5">
+            <div class="font-semiBold min-w-fit">Capital:</div>
+            <span class="opacity-80 ms-2">{{ country.capital }}</span>
           </li>
         </ul>
-        <ul class="text-xs mt-2 font-normal">
-          <li>
-            Top Level Domain:
-            <span class="opacity-50">
+        <ul class="text-xs mt-2 font-normal ps-9">
+          <li class="flex justify-start w-full mb-1.5">
+            <div class="font-semiBold min-w-fit">Top Level Domain:</div>
+            <span class="opacity-80 ms-2">
               {{
                 country.top_level_domain && country.top_level_domain.length > 0
                   ? country.top_level_domain.join(", ")
@@ -73,33 +60,37 @@
               }}
             </span>
           </li>
-          <li>
-            Currencies:
-            <span class="opacity-50">
-              {{ country.currencies.name }} ({{ country.currencies.symbol }})
-            </span>
+          <li class="flex justify-start w-full mb-1.5">
+            <div class="font-semiBold min-w-fit">Currencies:</div>
+            <span class="opacity-80 ms-2"
+              >{{ country.currencies.name }} ({{
+                country.currencies.symbol
+              }})</span
+            >
           </li>
-          <li>
-            Languages:
-            <span class="opacity-50">
-              {{ country.languages.join(", ") }}
-            </span>
+          <li class="flex justify-start min-w-fill">
+            <div class="font-semiBold min-w-fit">Languages:</div>
+            <span class="opacity-80 ms-2">{{
+              country.languages.join(", ")
+            }}</span>
           </li>
         </ul>
       </div>
-      <div class="flex font-light text-xs">
-        <p class="min-w-24">Borders Countries:</p>
+      <div class="flex font-light text-xs justify-center items-center mt-4">
+        <p class="min-w-fit me-2">Border Countries:</p>
         <div
-          class="w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-2"
+          class="w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 px-5"
         >
-          <button
-            *ngFor="let border of country.borders"
-            [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-            class="rounded shadow-2xl border border-gray-800 flex items-center justify-center w-28 h-9"
-            (click)="goToDetails(border)"
-          >
-            {{ border }}
-          </button>
+          <div class="max-w-24" *ngFor="let border of country.borders">
+            <button
+              *ngIf="border"
+              [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+              class="rounded shadow-xl flex items-center justify-center  h-9 w-full self-start"
+              (click)="goToDetails(border)"
+            >
+              {{ border }}
+            </button>
+          </div>
         </div>
       </div>
     </div>
