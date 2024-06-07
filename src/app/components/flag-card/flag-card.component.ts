@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { ThemeDataService } from "../../services/theme-data/theme-data.service";
 import { QueryDataService } from "../../services/query-data/query-data.service";
 import data from "../../../assets/cleaned_data.json";
@@ -64,7 +64,6 @@ export class FlagCardComponent implements OnInit {
   }
 
   goToDetails(countryName: string): void {
-    console.log("this.themeMode from flag card", this.themeMode);
     this.router.navigate(["/country", countryName]);
   }
 }

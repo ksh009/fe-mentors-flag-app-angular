@@ -24,9 +24,7 @@ export class CountryDetailsComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log("I render on route change!!!!")
     this.themeDataService.themeMode$.subscribe((mode) => {
-      console.log("mode from details", mode)
       this.themeMode = mode;
     });
   
