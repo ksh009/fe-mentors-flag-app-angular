@@ -57,12 +57,15 @@
     </li>
     <li>
       Borders:
-      <span class="opacity-50">
-        {{
-          country.borders && country.borders.length > 0
-            ? country.borders.join(", ")
-            : ""
-        }}
+      <span>
+        <button
+          *ngFor="let border of country.borders"
+          [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
+          class="mt-4 px-4 py-2 rounded shadow-2xl border border-gray-800 flex items-center"
+          (click)="goToDetails(border)"
+        >
+          {{ border }}
+        </button>
       </span>
     </li>
     <li>

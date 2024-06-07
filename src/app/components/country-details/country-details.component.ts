@@ -6,6 +6,7 @@ import { Location } from '@angular/common';
 // This info will need to be in a shared service. Origin will be the GET service then distribute. 
 import data from '../../../assets/cleaned_data.json';
 import { Country } from '../../interfaces/Country';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-country-details',
@@ -19,7 +20,8 @@ export class CountryDetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private themeDataService: ThemeDataService,
-    private location: Location
+    private location: Location,
+    private router: Router
   ) {
   }
 
@@ -43,5 +45,8 @@ export class CountryDetailsComponent implements OnInit {
       this.country = foundCountry as Country;
     }
   }
-  
+
+  goToDetails(countryName: string): void {
+    this.router.navigate(["/country", countryName]);
+  }
 }
