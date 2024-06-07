@@ -21,8 +21,9 @@
   <button
     (click)="goBack()"
     [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-    class="mt-4 px-4 py-2 rounded shadow-2xl border border-gray-800"
+    class="mt-4 px-4 py-2 rounded shadow-2xl border border-gray-800 flex items-center"
   >
+    <i class="fas fa-arrow-left mr-2"></i>
     Back
   </button>
 </div>
