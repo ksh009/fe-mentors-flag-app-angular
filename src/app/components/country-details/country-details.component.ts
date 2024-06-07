@@ -24,12 +24,12 @@ export class CountryDetailsComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log("country", this.country)
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
     });
   
     this.getCountryDetails();
+
   }
 
   goBack(): void {

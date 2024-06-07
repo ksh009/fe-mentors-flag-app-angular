@@ -10,4 +10,5 @@ export interface Country {
   borders?: string[];
   population: number;
   flags: string;
+  top_level_domain: string[]
 }

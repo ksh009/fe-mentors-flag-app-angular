@@ -58,10 +58,23 @@
     <li>
       Borders:
       <span class="opacity-50">
-        {{ country.borders && country.borders.length > 0 ? country.borders.join(", ") : "" }}
+        {{
+          country.borders && country.borders.length > 0
+            ? country.borders.join(", ")
+            : ""
+        }}
       </span>
     </li>
-    <!-- <li>Top Level Domain:</strong> {{ country.top_level_domain.join(', ') }}</li> -->
+    <li>
+      Top Level Domain:
+      <span class="opacity-50">
+        {{
+          country.top_level_domain && country.top_level_domain.length > 0
+            ? country.top_level_domain.join(", ")
+            : ""
+        }}
+      </span>
+    </li>
   </ul>
 
   <button
