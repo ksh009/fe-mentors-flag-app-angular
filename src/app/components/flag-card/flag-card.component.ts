@@ -34,7 +34,7 @@ export class FlagCardComponent implements OnInit {
       this.filterTerm = filterTerm;
       this.applyFilters();
     });
-    this.flagsApiService.getFlagData().subscribe((data) => {
+    this.flagsApiService.getAllCountries().subscribe((data) => {
       this.countries = data as Country[]
     })
   }
