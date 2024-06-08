@@ -6,8 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project is part of the REST Countries Challenge provided by Frontend Mentors. The challenge includes implementing features such as light/dark mode switch, dynamic card population with JSON data, search functionality, filtering by region, and creating a details page for each country. Additional features include card styling, animation, and responsive design.
 
-For more details on the challenge, visit the following links:
-2. RESTful Countries Challenge: [https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+For more details on the challenge, visit the following link:
+
+- RESTful Countries Challenge: [https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
 ## Development server
 
