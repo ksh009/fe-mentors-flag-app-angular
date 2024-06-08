@@ -2,7 +2,6 @@ import { Component, OnInit } from "@angular/core";
 import { ThemeDataService } from "../../services/theme-data/theme-data.service";
 import { QueryDataService } from "../../services/query-data/query-data.service";
 import { FlagsApiService } from "../../services/flags-api/flags-api.service";
-import data from "../../../assets/cleaned_data.json";
 import { Country } from "../../interfaces/Country";
 import { Router } from "@angular/router";
 
@@ -19,7 +18,7 @@ export class FlagCardComponent implements OnInit {
     private router: Router
   ) {}
   themeMode: string = "dark";
-  countries: Country[] = data as Country[];
+  countries!: Country[];
   searchTerm: string = "";
   filterTerm: string = "";
 
@@ -35,7 +34,9 @@ export class FlagCardComponent implements OnInit {
       this.filterTerm = filterTerm;
       this.applyFilters();
     });
-    this.flagsApiService.getFlagData().subscribe((data) => console.log("data", data))
+    this.flagsApiService.getFlagData().subscribe((data) => {
+      this.countries = data as Country[]
+    })
   }
 
   getCurrentThemeMode(): string | void {
@@ -49,7 +50,7 @@ export class FlagCardComponent implements OnInit {
   }
 
   applyFilters(): void {
-    let filteredData = data;
+    let filteredData = this.countries;
 
     if (this.searchTerm) {
       filteredData = filteredData.filter((item) =>
