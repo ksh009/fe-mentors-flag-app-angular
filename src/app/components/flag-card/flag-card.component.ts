@@ -56,7 +56,6 @@ export class FlagCardComponent implements OnInit {
     let filteredData = [...this.countries];
 
     if (this.searchTerm) {
-      console.log("this.countries from search", this.countries)
       filteredData = filteredData.filter((item) =>
         item.common_name.toLowerCase().includes(this.searchTerm.toLowerCase())
       );
