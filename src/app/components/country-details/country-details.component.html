@@ -14,12 +14,12 @@
     <i class="fas fa-arrow-left mr-2"></i>
     Back
   </button>
-  <div class="w-full flex flex-col md:flex-row mt-12 md:mt-5">
+  <div *ngIf="country" class="w-full flex flex-col md:flex-row mt-12 md:mt-5">
     <div class="w-full md:w-1/2 h-full justify-center items-center">
       <img
         [src]="country.flags"
         alt="{{ country.common_name }} flag"
-        class="w-full h-72 md:w-11/12 shadow-2xl rounded"
+        class="w-full h-72 sm:h-80 md:h-72` md:w-11/12 shadow-2xl rounded"
       />
     </div>
     <div class="w-full md:w-1/2 mt-8 md:mt-0 justify-center items-center">
