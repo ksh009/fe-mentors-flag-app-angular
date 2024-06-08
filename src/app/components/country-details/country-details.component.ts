@@ -23,7 +23,7 @@ export class CountryDetailsComponent implements OnInit {
     private themeDataService: ThemeDataService,
     private flagsApiService: FlagsApiService,
     private location: Location,
-    private router: Router
+    private router: Router,
   ) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
