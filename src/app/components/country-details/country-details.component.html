@@ -4,22 +4,22 @@
       ? 'bg-veryDarkBlueDM text-white'
       : 'bg-white text-veryDarkBlueLM'
   "
-  class="w-full h-full flex flex-col justify-start items-start min-h-screen px-10 py-9"
+  class="w-full h-full flex flex-col justify-start items-start min-h-screen px-4 sm:px-10 py-9"
 >
   <button
     (click)="goBack()"
     [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
-    class="my-7 px-4 py-2 rounded shadow-xl flex items-center justify-center w-28 h-9 text-bodyHomepage font-light"
+    class="my-4 md:my-7 px-4 sm:py-2 rounded shadow-xl flex items-center justify-center w-28 h-9 text-xs sm:text-bodyHomepage font-light"
   >
     <i class="fas fa-arrow-left mr-2"></i>
     Back
   </button>
-  <div class="w-full flex mt-5">
-    <div class="w-1/2 h-96 justify-center items-center">
+  <div class="w-full flex flex-col md:flex-row mt-12 md:mt-5">
+    <div class="w-full md:w-1/2 h-72 md:h-full justify-center items-center">
       <img
         [src]="country.flags"
         alt="{{ country.common_name }} flag"
-        class="w-11/12 h-72 shadow-2xl rounded object-center"
+        class="w-full h-96 md:w-11/12 md:h-72 shadow-2xl rounded"
       />
     </div>
     <div class="w-1/2 justify-center items-center">
