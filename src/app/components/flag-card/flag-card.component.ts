@@ -19,6 +19,7 @@ export class FlagCardComponent implements OnInit {
   ) {}
   themeMode: string = "dark";
   countries!: Country[];
+  filteredCountries!: Country[];
   searchTerm: string = "";
   filterTerm: string = "";
 
@@ -36,6 +37,7 @@ export class FlagCardComponent implements OnInit {
     });
     this.flagsApiService.getAllCountries().subscribe((data) => {
       this.countries = data as Country[]
+      this.filteredCountries = data as Country[]
     })
   }
 
@@ -50,7 +52,8 @@ export class FlagCardComponent implements OnInit {
   }
 
   applyFilters(): void {
-    let filteredData = this.countries;
+    console.log()
+    let filteredData = [...this.countries];
 
     if (this.searchTerm) {
       console.log("this.countries from search", this.countries)
@@ -65,7 +68,7 @@ export class FlagCardComponent implements OnInit {
       );
     }
 
-    this.countries = filteredData as Country[];
+    this.filteredCountries = filteredData as Country[];
   }
 
   goToDetails(countryName: string): void {
