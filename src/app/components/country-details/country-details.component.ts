@@ -1,10 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Router, NavigationEnd } from "@angular/router";
 import { ThemeDataService } from "../../services/theme-data/theme-data.service";
+import { FlagsApiService } from "../../services/flags-api/flags-api.service";
 import { Location } from "@angular/common";
-
-// This info will need to be in a shared service. Origin will be the GET service then distribute.
-import data from "../../../assets/cleaned_data.json";
 import { Country } from "../../interfaces/Country";
 
 @Component({
@@ -19,8 +17,9 @@ export class CountryDetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private themeDataService: ThemeDataService,
+    private flagsApiService: FlagsApiService,
     private location: Location,
-    private router: Router
+    private router: Router,
   ) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
@@ -33,7 +32,6 @@ export class CountryDetailsComponent implements OnInit {
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
     });
-
     this.getCountryDetails();
   }
 
@@ -44,10 +42,9 @@ export class CountryDetailsComponent implements OnInit {
   getCountryDetails(): void {
     const countryName = this.route.snapshot.paramMap.get("name");
     if (countryName) {
-      const foundCountry = data.find(
-        (item) => item.common_name.toLowerCase() === countryName.toLowerCase()
-      );
+      this.flagsApiService.getCountry(countryName).subscribe((foundCountry) => {
       this.country = foundCountry as Country;
+      })
     }
   }
 
