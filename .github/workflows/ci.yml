@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ["main", dev, search-filter-feature, country-details-view]
+    branches: ["main", dev]
 
 jobs:
   build:
