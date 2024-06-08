@@ -1,9 +1,9 @@
 <div
-class="rounded shadow-lg w-32"
+class="rounded shadow-lg w-44 md:w-32 py-2 md:py-0"
 [ngClass]="themeMode === 'dark' ? 'bg-darkBlue' : 'bg-white'"
 >
 <select
-  class="py-1 px-2 rounded leading-tight focus:outline-none focus:border-gray-500 bg-transparent h-9 text-xs w-full"
+  class="px-2 rounded leading-tight focus:outline-none focus:border-gray-500 bg-transparent h-8 text-xs w-full"
   [ngClass]="themeMode === 'dark' ? 'text-white' : 'text-veryDarkBlueLM'"
   placeholder="Filter by region"
   (change)="onFilterTermSelect()"
