@@ -30,4 +30,11 @@ describe('NavbarComponent', () => {
     component.toggleThemeMode();
     expect(component.themeMode).toBe('light');
   });
+
+  it('should toggle theme mode from light to dark', () => {
+    component.toggleThemeMode();
+    expect(component.themeMode).toBe('light');
+    component.toggleThemeMode();
+    expect(component.themeMode).toBe('dark');
+  });
 });
