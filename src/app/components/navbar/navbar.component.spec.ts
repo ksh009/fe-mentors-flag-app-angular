@@ -21,4 +21,8 @@ describe('NavbarComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should initialize with dark theme mode', () => {
+    expect(component.themeMode).toBe('dark');
+  });
 });
