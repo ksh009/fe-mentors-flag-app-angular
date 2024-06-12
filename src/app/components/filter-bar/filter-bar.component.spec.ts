@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FilterBarComponent } from './filter-bar.component';
+import { AppModule } from '../../app.module';
 
 describe('FilterBarComponent', () => {
   let component: FilterBarComponent;
@@ -8,7 +9,7 @@ describe('FilterBarComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FilterBarComponent]
+      imports: [AppModule]
     })
     .compileComponents();
     

@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { QueryContainerComponent } from './query-container.component';
+import { AppModule } from '../../app.module';
 
 describe('QueryContainerComponent', () => {
   let component: QueryContainerComponent;
@@ -8,7 +9,7 @@ describe('QueryContainerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [QueryContainerComponent]
+      imports: [AppModule]
     })
     .compileComponents();
     
