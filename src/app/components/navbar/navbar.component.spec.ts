@@ -25,4 +25,9 @@ describe('NavbarComponent', () => {
   it('should initialize with dark theme mode', () => {
     expect(component.themeMode).toBe('dark');
   });
+
+  it('should toggle theme mode from dark to light', () => {
+    component.toggleThemeMode();
+    expect(component.themeMode).toBe('light');
+  });
 });
