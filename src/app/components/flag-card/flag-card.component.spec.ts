@@ -156,4 +156,24 @@ describe('FlagCardComponent', () => {
     expect(component.filteredCountries.length).toBe(1);
     expect(component.filteredCountries[0].common_name).toBe('Afghanistan');
   });
+
+  it('should render country cards with proper data', () => {
+    const cardElements = fixture.nativeElement.querySelectorAll('[data-testid^="country-card-"]');
+    expect(cardElements.length).toBe(mockCountries.length);
+
+    mockCountries.forEach((country, index) => {
+      const cardElement = cardElements[index];
+      const imageElement = cardElement.querySelector(`[data-testid="country-image-${index}"]`);
+      const nameElement = cardElement.querySelector(`[data-testid="country-name-${index}"]`);
+      const populationElement = cardElement.querySelector(`[data-testid="country-population-${index}"]`);
+      const regionElement = cardElement.querySelector(`[data-testid="country-region-${index}"]`);
+      const capitalElement = cardElement.querySelector(`[data-testid="country-capital-${index}"]`);
+
+      expect(imageElement.getAttribute('src')).toBe(country.flags);
+      expect(nameElement.textContent.trim()).toBe(country.common_name);
+      expect(populationElement.textContent.trim()).toBe(country.population.toLocaleString());
+      expect(regionElement.textContent.trim()).toBe(country.region);
+      expect(capitalElement.textContent.trim()).toBe(country.capital.join(', '));
+    });
+  });
 });
