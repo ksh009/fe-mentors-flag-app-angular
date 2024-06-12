@@ -131,10 +131,6 @@ describe('FlagCardComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should initialize with dark theme mode', () => {
-    expect(component.themeMode).toBe('dark');
-  });
-
   it('should reflect changes in theme mode', () => {
     expect(component.themeMode).toBe('dark');
 
@@ -147,5 +143,17 @@ describe('FlagCardComponent', () => {
     fixture.detectChanges();
 
     expect(component.themeMode).toBe('dark');
+  });
+
+  it('should load countries on initialization', () => {
+    expect(component.countries).toEqual(mockCountries);
+    expect(component.filteredCountries).toEqual(mockCountries);
+  });
+
+  it('should apply filters when search term changes', () => {
+    component.searchTerm = 'Afghanistan';
+    component.applyFilters();
+    expect(component.filteredCountries.length).toBe(1);
+    expect(component.filteredCountries[0].common_name).toBe('Afghanistan');
   });
 });
