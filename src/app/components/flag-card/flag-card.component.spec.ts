@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FlagCardComponent } from './flag-card.component';
 import { ThemeDataService } from '../../services/theme-data/theme-data.service';
+import { AppModule } from '../../app.module';
 import { QueryDataService } from '../../services/query-data/query-data.service';
 import { FlagsApiService } from '../../services/flags-api/flags-api.service';
 import { Country } from '../../interfaces/Country';
@@ -10,7 +11,7 @@ import { of } from 'rxjs';
 describe('FlagCardComponent', () => {
   let component: FlagCardComponent;
   let fixture: ComponentFixture<FlagCardComponent>;
-  let mockThemeDataService: Partial<ThemeDataService>;
+  let themeDataService: ThemeDataService;
   let mockQueryDataService: Partial<QueryDataService>;
   let mockFlagsApiService: Partial<FlagsApiService>;
   const mockCountries: Country[] = [
@@ -102,9 +103,6 @@ describe('FlagCardComponent', () => {
   ];
 
   beforeEach(async () => {
-    mockThemeDataService = {
-      themeMode$: of('dark')
-    };
     mockQueryDataService = {
       searchQuery$: of(''),
       filterQuery$: of('')
@@ -115,9 +113,9 @@ describe('FlagCardComponent', () => {
 
     await TestBed.configureTestingModule({
       declarations: [FlagCardComponent],
-      imports: [RouterTestingModule],
+      imports: [AppModule, RouterTestingModule],
       providers: [
-        { provide: ThemeDataService, useValue: mockThemeDataService },
+        ThemeDataService,
         { provide: QueryDataService, useValue: mockQueryDataService },
         { provide: FlagsApiService, useValue: mockFlagsApiService }
       ]
@@ -125,6 +123,7 @@ describe('FlagCardComponent', () => {
 
     fixture = TestBed.createComponent(FlagCardComponent);
     component = fixture.componentInstance;
+    themeDataService = TestBed.inject(ThemeDataService);
     fixture.detectChanges();
   });
 
@@ -133,6 +132,20 @@ describe('FlagCardComponent', () => {
   });
 
   it('should initialize with dark theme mode', () => {
+    expect(component.themeMode).toBe('dark');
+  });
+
+  it('should reflect changes in theme mode', () => {
+    expect(component.themeMode).toBe('dark');
+
+    themeDataService.toggleThemeMode('light');
+    fixture.detectChanges();
+
+    expect(component.themeMode).toBe('light');
+
+    themeDataService.toggleThemeMode('dark');
+    fixture.detectChanges();
+
     expect(component.themeMode).toBe('dark');
   });
 });
