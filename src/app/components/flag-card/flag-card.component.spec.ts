@@ -7,6 +7,8 @@ import { FlagsApiService } from "../../services/flags-api/flags-api.service";
 import { Country } from "../../interfaces/Country";
 import { RouterTestingModule } from "@angular/router/testing";
 import { of } from "rxjs";
+import { DebugElement } from "@angular/core";
+import { By } from "@angular/platform-browser";
 
 describe("FlagCardComponent", () => {
   let component: FlagCardComponent;
@@ -155,7 +157,8 @@ describe("FlagCardComponent", () => {
     const cardElements = fixture.nativeElement.querySelectorAll(
       '[data-testid^="country-card-"]'
     );
-    expect(cardElements.length).toBe(mockCountries.length);
+    const mockCountriesCopy = [...mockCountries];
+    expect(cardElements.length).toBe(mockCountriesCopy.length);
 
     mockCountries.forEach((country, index) => {
       const cardElement = cardElements[index];
@@ -190,20 +193,41 @@ describe("FlagCardComponent", () => {
   it("should apply filters when search term changes", () => {
     component.searchTerm = "American Samoa";
     component.applyFilters();
+    fixture.detectChanges();
+    const cardElements = fixture.nativeElement.querySelectorAll(
+      '[data-testid^="country-card-"]'
+    );
+
     expect(component.filteredCountries.length).toBe(1);
     expect(component.filteredCountries[0].common_name).toBe("American Samoa");
+
+    expect(cardElements.length).toBe(1);
   });
 
-  it("should apply filters when filter term changes", () => {
+  it("should apply filters and render correct number of cards when filter term changes", () => {
     component.filterTerm = "Africa";
     component.applyFilters();
+
     expect(component.filteredCountries.length).toBe(1);
     expect(component.filteredCountries[0].region).toBe("Africa");
 
+    fixture.detectChanges();
+    let cardElements = fixture.nativeElement.querySelectorAll(
+      '[data-testid^="country-card-"]'
+    );
+
+    expect(cardElements.length).toBe(1);
+
     component.filterTerm = "Europe";
     component.applyFilters();
+    fixture.detectChanges();
+    cardElements = fixture.nativeElement.querySelectorAll(
+      '[data-testid^="country-card-"]'
+    );
+
     expect(component.filteredCountries.length).toBe(2);
     expect(component.filteredCountries[0].region).toBe("Europe");
     expect(component.filteredCountries[1].region).toBe("Europe");
+    expect(cardElements.length).toBe(2);
   });
 });
