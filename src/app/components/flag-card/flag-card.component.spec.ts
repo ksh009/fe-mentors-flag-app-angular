@@ -7,8 +7,6 @@ import { FlagsApiService } from "../../services/flags-api/flags-api.service";
 import { Country } from "../../interfaces/Country";
 import { RouterTestingModule } from "@angular/router/testing";
 import { of } from "rxjs";
-import { DebugElement } from "@angular/core";
-import { By } from "@angular/platform-browser";
 
 describe("FlagCardComponent", () => {
   let component: FlagCardComponent;
@@ -110,9 +108,11 @@ describe("FlagCardComponent", () => {
       searchQuery$: of(""),
       filterQuery$: of(""),
     };
+
     mockFlagsApiService = {
-      getAllCountries: () => of(mockCountries),
+      getAllCountries: jasmine.createSpy().and.returnValue(of(mockCountries))
     };
+    
 
     await TestBed.configureTestingModule({
       declarations: [FlagCardComponent],
@@ -128,6 +128,15 @@ describe("FlagCardComponent", () => {
     component = fixture.componentInstance;
     themeDataService = TestBed.inject(ThemeDataService);
     fixture.detectChanges();
+  });
+
+  it('should fetch countries from FlagsApiService on initialization', () => {
+    const getAllCountriesSpy = mockFlagsApiService.getAllCountries;
+    
+    fixture.detectChanges();
+    expect(getAllCountriesSpy).toHaveBeenCalled();
+    expect(component.countries).toEqual(mockCountries);
+    expect(component.filteredCountries).toEqual(mockCountries);
   });
 
   it("should create", () => {
@@ -236,4 +245,12 @@ describe("FlagCardComponent", () => {
     component.goToDetails("American Samoa");
     expect(routerSpy).toHaveBeenCalledWith(["/country", "American Samoa"]);
   });
+
+  it('should reset filters if search and filter terms are empty', () => {
+    component.searchTerm = '';
+    component.filterTerm = '';
+    component.applyFilters();
+    expect(component.filteredCountries.length).toBe(mockCountries.length);
+  });
+
 });
