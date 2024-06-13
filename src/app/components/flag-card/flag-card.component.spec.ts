@@ -229,7 +229,11 @@ describe("FlagCardComponent", () => {
     expect(component.filteredCountries[0].region).toBe("Europe");
     expect(component.filteredCountries[1].region).toBe("Europe");
     expect(cardElements.length).toBe(2);
+  });
 
-    const testPipleline = "hello!"
+  it("should navigate to details page when country is clicked", () => {
+    const routerSpy = spyOn(component["router"], "navigate");
+    component.goToDetails("American Samoa");
+    expect(routerSpy).toHaveBeenCalledWith(["/country", "American Samoa"]);
   });
 });
