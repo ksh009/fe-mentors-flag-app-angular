@@ -138,4 +138,16 @@ describe("FlagsApiService", () => {
     expect(req.request.method).toBe('GET');
     req.flush(mockCountry);
   });
+
+  it('should handle errors gracefully for getAllCountries', () => {
+    service.getAllCountries().subscribe(
+      () => fail('expected to fail with an error'),
+      error => {
+        expect(error.status).toBe(500);
+      }
+    );
+
+    const req = httpMock.expectOne('http://localhost:5000/api/countries');
+    req.error(new ErrorEvent('test error'), { status: 500 });
+  });
 });
