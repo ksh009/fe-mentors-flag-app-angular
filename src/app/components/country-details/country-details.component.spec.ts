@@ -102,4 +102,12 @@ describe('CountryDetailsComponent', () => {
 
     expect(locationBackSpy).toHaveBeenCalled();
   });
+
+  it('should navigate to country details when goToDetails(countryName) is called', () => {
+    const routerNavigateSpy = spyOn(router, 'navigate');
+
+    component.goToDetails('Algeria');
+
+    expect(routerNavigateSpy).toHaveBeenCalledWith(['/country', 'Algeria']);
+  });
 });
