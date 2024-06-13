@@ -150,4 +150,18 @@ describe("FlagsApiService", () => {
     const req = httpMock.expectOne('http://localhost:5000/api/countries');
     req.error(new ErrorEvent('test error'), { status: 500 });
   });
+
+  it('should handle errors gracefully for getCountry', () => {
+    const countryName = 'NonExistentCountry';
+
+    service.getCountry(countryName).subscribe(
+      () => fail('expected to fail with an error'),
+      error => {
+        expect(error.status).toBe(404);
+      }
+    );
+
+    const req = httpMock.expectOne(`http://localhost:5000/api/country/${countryName}`);
+    req.error(new ErrorEvent('test error'), { status: 404 });
+  });
 });
