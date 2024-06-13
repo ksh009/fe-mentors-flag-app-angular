@@ -21,8 +21,10 @@ export class CountryDetailsComponent implements OnInit {
     private location: Location,
     private router: Router,
   ) {
-    this.router.events.subscribe(() => {
-      this.getCountryDetails();
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.getCountryDetails();
+      }
     });
   }
 
