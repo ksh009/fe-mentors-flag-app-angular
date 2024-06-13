@@ -94,4 +94,12 @@ describe('CountryDetailsComponent', () => {
 
     expect(component.country).toEqual(mockCountry);
   });
+
+  it('should navigate back when goBack() is called', () => {
+    const locationBackSpy = spyOn(location, 'back');
+
+    component.goBack();
+
+    expect(locationBackSpy).toHaveBeenCalled();
+  });
 });
