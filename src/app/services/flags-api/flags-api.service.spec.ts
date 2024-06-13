@@ -125,4 +125,17 @@ describe("FlagsApiService", () => {
     expect(req.request.method).toBe('GET');
     req.flush(mockCountries);
   });
+
+  it('should retrieve country details from API', () => {
+    const countryName = 'Albania';
+    const mockCountry: Country = mockCountries[1]
+
+    service.getCountry(countryName).subscribe(country => {
+      expect(country).toEqual(mockCountry);
+    });
+
+    const req = httpMock.expectOne(`http://localhost:5000/api/country/${countryName}`);
+    expect(req.request.method).toBe('GET');
+    req.flush(mockCountry);
+  });
 });
