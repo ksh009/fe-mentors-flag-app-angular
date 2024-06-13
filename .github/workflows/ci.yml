@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ["main", dev]
+    branches: ["main", dev, unit-tests]
 
 jobs:
   build:
@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run lint checks
-        run: npm run lint
+      - name: Run tests
+        run: npm run test -- --watch=false --browsers=ChromeHeadless
 
       - name: Build
         run: npm run build
