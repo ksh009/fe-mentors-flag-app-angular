@@ -32,7 +32,7 @@ export class CountryDetailsComponent implements OnInit {
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
     });
-    this.getCountryDetails();
+    // this.getCountryDetails();
   }
 
   goBack(): void {
