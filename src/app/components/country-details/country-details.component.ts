@@ -13,6 +13,7 @@ import { Country } from "../../interfaces/Country";
 export class CountryDetailsComponent implements OnInit {
   themeMode: string = "dark";
   country!: Country;
+  reqsMade: number = 0;
 
   constructor(
     private route: ActivatedRoute,
@@ -22,8 +23,11 @@ export class CountryDetailsComponent implements OnInit {
     private router: Router,
   ) {
     this.router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd) {
+      console.log("event", event);
+      if (event instanceof NavigationEnd && event.url !== "/") {
+        this.reqsMade++;
         this.getCountryDetails();
+        console.log("this.reqsMade", this.reqsMade);
       }
     });
   }
