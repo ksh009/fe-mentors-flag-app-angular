@@ -1,5 +1,4 @@
 import { TestBed } from "@angular/core/testing";
-import { HttpClientModule } from "@angular/common/http";
 import {
   HttpClientTestingModule,
   HttpTestingController,
@@ -121,7 +120,7 @@ describe("FlagsApiService", () => {
       expect(countries).toEqual(mockCountries);
     });
 
-    const req = httpMock.expectOne('https://simple-flags-api.onrender.com/api/countries');
+    const req = httpMock.expectOne('http://localhost:5000/api/countries');
     expect(req.request.method).toBe('GET');
     req.flush(mockCountries);
   });
@@ -134,7 +133,7 @@ describe("FlagsApiService", () => {
       expect(country).toEqual(mockCountry);
     });
 
-    const req = httpMock.expectOne(`https://simple-flags-api.onrender.com/api/country/${countryName}`);
+    const req = httpMock.expectOne(`http://localhost:5000/api/country/${countryName}`);
     expect(req.request.method).toBe('GET');
     req.flush(mockCountry);
   });
@@ -147,7 +146,7 @@ describe("FlagsApiService", () => {
       }
     );
 
-    const req = httpMock.expectOne('https://simple-flags-api.onrender.com/api/countries');
+    const req = httpMock.expectOne('http://localhost:5000/api/countries');
     req.error(new ErrorEvent('test error'), { status: 500 });
   });
 
@@ -161,7 +160,7 @@ describe("FlagsApiService", () => {
       }
     );
 
-    const req = httpMock.expectOne(`https://simple-flags-api.onrender.com/api/country/${countryName}`);
+    const req = httpMock.expectOne(`http://localhost:5000/api/country/${countryName}`);
     req.error(new ErrorEvent('test error'), { status: 404 });
   });
 });
