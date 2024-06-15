@@ -26,6 +26,14 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 This project consumes a RESTful API to fetch country data. It uses Angular's HttpClient module to make HTTP requests to the API endpoints. The API provides country information such as name, flag image URL, population, region, languages spoken, and more.
 
+### Endpoint and Security
+
+The application interacts with a RESTful API deployed on a free tier of Render. To ensure secure data transmission, the API has a strict origin policy that only accepts requests from the deployed site on Netlify at [https://restful-countries-ksh.netlify.app/](https://restful-countries-ksh.netlify.app/). Requests from other origins will be blocked.
+
+### Note on Service Delay
+
+Due to the free tier deployment of the Node.js service, requests may experience delays of up to 50 seconds before completing. This delay is inherent to the infrastructure and does not affect normal operation once the request is processed.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
