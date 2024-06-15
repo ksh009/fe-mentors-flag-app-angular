@@ -12,6 +12,7 @@ import { Country } from "../../interfaces/Country";
 })
 export class FlagsApiService {
   private countriesCache$!: Observable<Country[]>;
+  private countryCache$: Map<string, Observable<Country>> = new Map();
   constructor(private http: HttpClient) {}
 
   getAllCountries(): Observable<Country[]> {
@@ -30,12 +31,21 @@ export class FlagsApiService {
 
   getCountry(countryName: string): Observable<Country> {
     const url = `http://localhost:5000/api/country/${countryName}`;
-
-    return this.http.get<Country>(url).pipe(
+  
+    if (this.countryCache$.has(countryName)) {
+      return this.countryCache$.get(countryName)!;
+    }
+  
+    const countryObservable = this.http.get<Country>(url).pipe(
+      map((response) => response),
       catchError((error) => {
         return throwError(error);
-      })
+      }),
+      shareReplay(1)
     );
+  
+    this.countryCache$.set(countryName, countryObservable);
+    return countryObservable;
   }
 }
  

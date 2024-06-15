@@ -20,13 +20,17 @@ export class CountryDetailsComponent implements OnInit {
     private themeDataService: ThemeDataService,
     private flagsApiService: FlagsApiService,
     private location: Location,
-    private router: Router,
+    private router: Router
   ) {
     this.router.events.subscribe((event) => {
-      console.log("event", event);
-      if (event instanceof NavigationEnd && event.url !== "/") {
-        this.reqsMade++;
+      // console.log("event", event);
+      if (
+        event instanceof NavigationEnd &&
+        event.urlAfterRedirects &&
+        event.urlAfterRedirects.includes("/country")
+      ) {
         this.getCountryDetails();
+        this.reqsMade++;
         console.log("this.reqsMade", this.reqsMade);
       }
     });
@@ -40,14 +44,16 @@ export class CountryDetailsComponent implements OnInit {
 
   goBack(): void {
     this.location.back();
+    this.reqsMade--;
+    console.log("this.reqsMade", this.reqsMade);
   }
 
   getCountryDetails(): void {
     const countryName = this.route.snapshot.paramMap.get("name");
     if (countryName) {
       this.flagsApiService.getCountry(countryName).subscribe((foundCountry) => {
-      this.country = foundCountry as Country;
-      })
+        this.country = foundCountry as Country;
+      });
     }
   }
 
