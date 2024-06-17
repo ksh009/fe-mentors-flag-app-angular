@@ -11,6 +11,7 @@ export class QueryContainerComponent implements OnInit {
   themeMode: string = "dark";
 
   ngOnInit() {
+    console.log("I have loaded => QueryContainerComponent");
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
     });

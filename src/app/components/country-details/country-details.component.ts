@@ -33,6 +33,8 @@ export class CountryDetailsComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log("I have loaded => CountryDetailsComponent")
+
     this.themeDataService.themeMode$.subscribe((mode) => {
       this.themeMode = mode;
     });
